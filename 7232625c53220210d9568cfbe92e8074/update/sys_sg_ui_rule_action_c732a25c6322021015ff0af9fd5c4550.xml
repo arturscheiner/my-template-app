@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order>10</order>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:20</sys_created_on>
+        <sys_id>c732a25c6322021015ff0af9fd5c4550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_c732a25c6322021015ff0af9fd5c4550</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:20</sys_updated_on>
+        <target>viewgroup_01</target>
+        <ui_rule display_value="My Status reports Closed (List)">8332a25c232202107cef01e91a4e6861</ui_rule>
+        <value>{"BackgroundColor":"#d9d9d9", "FontColor":"#161b1c"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

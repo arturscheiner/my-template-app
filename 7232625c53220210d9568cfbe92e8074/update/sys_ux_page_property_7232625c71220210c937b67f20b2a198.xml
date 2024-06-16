@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>routeConfigId</name>
+        <page display_value="My Template App - Workspace">6732e25cd622021083b226d926fadaa2</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Results">be32625c1d2202102d22a3874d33fec7</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7232625c71220210c937b67f20b2a198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>routeConfigId</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_page_property_7232625c71220210c937b67f20b2a198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:32</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1434439_my_tem_0.6732e25cd622021083b226d926fadaa2.route.routeConfigId.be32625c1d2202102d22a3874d33fec7</unique_name>
+        <value>76a302f10b131010a8b1c96237673a61</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=7232625c71220210c937b67f20b2a198"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Emergency Alert - Manager">fa32625c9222021085e7d6afb1fb5cd0</applicability>
+        <list display_value="Work status requests">b632625c22220210c202adcf5bf5cacf</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:41</sys_created_on>
+        <sys_id>f232625cd3220210fb7e9e10ae30ddcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_f232625cd3220210fb7e9e10ae30ddcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:41</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

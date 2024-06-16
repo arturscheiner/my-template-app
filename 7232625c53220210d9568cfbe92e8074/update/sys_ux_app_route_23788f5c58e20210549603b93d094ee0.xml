@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Custom Portal App Config">17788f5cc3e20210b6e3d8ec0501317f</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Preferences</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Settings Page">af788f5c05e2021030c4f60e674378de</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>cketv4fts00003g8yxah9e3hs</route_type>
+        <screen_type display_value="Preferences">ab788f5c47e20210bcc6b0eb39fa53df</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:08</sys_created_on>
+        <sys_id>23788f5c58e20210549603b93d094ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Preferences</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_app_route_23788f5c58e20210549603b93d094ee0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:08</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=23788f5c58e20210549603b93d094ee0"/>
+</record_update>

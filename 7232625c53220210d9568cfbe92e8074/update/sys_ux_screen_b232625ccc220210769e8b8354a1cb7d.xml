@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Emergency Alert - Workspace Config">ef32e25c9a220210fc33a03d5ceadba2</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="List Modal Page">be32625ca92202107c5b3d4321844c9d</macroponent>
+        <macroponent_config>{
+  "table" : "@context.props.table",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "tinyId" : ""
+}</macroponent_config>
+        <name>List Modal Page Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="List">7a32625ce9220210fe5e654a0e016ad2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="List Modal Page">3632625c0c220210cd0d97f7c58398cb</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b232625ccc220210769e8b8354a1cb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Modal Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_screen_b232625ccc220210769e8b8354a1cb7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:23</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=b232625ccc220210769e8b8354a1cb7d"/>
+</record_update>

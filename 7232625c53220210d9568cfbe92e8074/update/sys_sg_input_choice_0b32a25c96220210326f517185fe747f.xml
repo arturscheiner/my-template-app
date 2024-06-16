@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_choice">
+    <sys_sg_input_choice action="INSERT_OR_UPDATE">
+        <image_url/>
+        <input display_value="Health status">c332a25cbd22021095041622a8565d84</input>
+        <label>Healthy/safe</label>
+        <order>10</order>
+        <selected_image_url/>
+        <sys_class_name>sys_sg_input_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:38</sys_created_on>
+        <sys_id>0b32a25c96220210326f517185fe747f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Healthy/safe</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_input_choice_0b32a25c96220210326f517185fe747f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:38</sys_updated_on>
+        <value>healthy_safe</value>
+    </sys_sg_input_choice>
+</record_update>

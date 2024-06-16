@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="your_health_status">4b32a25c6b220210a90bc5a0589dd684</autofill_variable>
+        <category/>
+        <description/>
+        <label>Health status</label>
+        <mandatory>false</mandatory>
+        <name>your_health_status</name>
+        <order>40</order>
+        <page/>
+        <parameter_screen display_value="Edit">4332a25c042202102ceaeb9035429786</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:19</sys_created_on>
+        <sys_id>c332a25cbd22021095041622a8565d84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health status</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_input_c332a25cbd22021095041622a8565d84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:19</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>

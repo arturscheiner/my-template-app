@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Emergency Alert Admin list ">7632625cd2220210d7080aa2cd0b2da3</configuration>
+        <description>Employee status</description>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b232625c0d2202100d3a58cee085bca3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_list_category_b232625c0d2202100d3a58cee085bca3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:45</sys_updated_on>
+        <title>Employee status</title>
+    </sys_ux_list_category>
+</record_update>

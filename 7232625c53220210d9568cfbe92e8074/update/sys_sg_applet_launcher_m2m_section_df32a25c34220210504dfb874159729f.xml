@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="My status reports">9332a25c9c220210c7721d6034a89ca3</applet_launcher>
+        <order>10</order>
+        <section display_value="Community Alerts">9f32a25c5c2202108a0304aa52b8bda0</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:12</sys_created_on>
+        <sys_id>df32a25c34220210504dfb874159729f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_df32a25c34220210504dfb874159729f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:12</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Report an Emergency">5732a25c45220210a0755e97e26974ac</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="icon-Clipboard-Exclamation-Solid">0f32a25cc7220210251c59bbe0993193</icon>
+        <label>Report an Emergency</label>
+        <location>quick_action</location>
+        <name>Report an Emergency</name>
+        <order/>
+        <parent>9332a25c9c220210c7721d6034a89ca3</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:14</sys_created_on>
+        <sys_id>df32a25c53220210c37b6c54ff8a36a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report an Emergency</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_button_instance_df32a25c53220210c37b6c54ff8a36a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:14</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=df32a25c53220210c37b6c54ff8a36a2"/>
+</record_update>

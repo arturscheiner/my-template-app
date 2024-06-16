@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Request a report</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:49</sys_created_on>
+        <sys_id>1732a25c17220210b90a85fc367c0198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a report</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_1732a25c17220210b90a85fc367c0198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:49</sys_updated_on>
+        <table>x_1434439_my_tem_0_status_report_requests</table>
+        <template>type_of_emergency={{Type of emergency}}^emergency_details={{Emergency details}}^location={{Location}}^emergency_start={{Emergency start}}^emergency_end={{Emergency end}}^send_report_to={{Send report to}}^requester={{Manager}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=1732a25c17220210b90a85fc367c0198"/>
+</record_update>

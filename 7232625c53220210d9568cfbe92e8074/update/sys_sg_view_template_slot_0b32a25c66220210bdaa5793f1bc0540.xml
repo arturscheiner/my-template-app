@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>text_07</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:22</sys_created_on>
+        <sys_id>0b32a25c66220210bdaa5793f1bc0540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_07</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_0b32a25c66220210bdaa5793f1bc0540</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:22</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Emergency Alert">0f32a25c8e220210120a953bab5dae4b</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

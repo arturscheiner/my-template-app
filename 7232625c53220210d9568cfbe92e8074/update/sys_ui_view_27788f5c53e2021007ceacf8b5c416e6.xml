@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_settings_x_1434439_my_tem_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:10</sys_created_on>
+        <sys_id>27788f5c53e2021007ceacf8b5c416e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom portal settings (x_1434439_my_tem_0)</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ui_view_27788f5c53e2021007ceacf8b5c416e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:10</sys_updated_on>
+        <title>Custom portal settings (x_1434439_my_tem_0)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

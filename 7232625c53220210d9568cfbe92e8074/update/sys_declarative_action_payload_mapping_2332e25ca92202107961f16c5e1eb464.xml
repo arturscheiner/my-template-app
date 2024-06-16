@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Update Emergency Rec">6332e25c642202102c7d1c1c8bef6572</action_payload_definition>
+        <label>null Form</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <payload_map>EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:50</sys_created_on>
+        <sys_id>2332e25ca92202107961f16c5e1eb464</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>null Form</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_2332e25ca92202107961f16c5e1eb464</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:50</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

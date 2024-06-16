@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "x_snc_emergency_0_status_report",
+  "sysId" : "e9e62ba5bc312010f877ff5e70b1420a"
+}</macroponent_config>
+        <screen display_value="RecordNew default">0732a25cda220210d32596c00e827a1d</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_id>c332a25c7e220210419e5bbcf4c1c41e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_c332a25c7e220210419e5bbcf4c1c41e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

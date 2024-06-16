@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Decline dashboard">db32a25c67220210079666f2193da39a</button>
+        <color_theme>destructive</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Decline</label>
+        <location>footer</location>
+        <name>Decline</name>
+        <order>20</order>
+        <parent>0732a25c29220210d1cf7aefb32a4795</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:12</sys_created_on>
+        <sys_id>4332a25c2a220210c02cd170ac54d295</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decline</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_button_instance_4332a25c2a220210c02cd170ac54d295</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:12</sys_updated_on>
+        <table>x_1434439_my_tem_0_work_status_request_task</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4332a25c2a220210c02cd170ac54d295"/>
+</record_update>
