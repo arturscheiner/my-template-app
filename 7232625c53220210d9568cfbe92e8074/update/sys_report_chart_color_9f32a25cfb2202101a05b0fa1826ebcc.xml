@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name display_value="Emergency#E79C66">9332a25ce5220210f0ac6d0344416bcc</color_name>
+        <display>background-color:#e79c66</display>
+        <element>status_matrix</element>
+        <name>x_1434439_my_tem_0_status_report</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:48</sys_created_on>
+        <sys_id>9f32a25cfb2202101a05b0fa1826ebcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0_status_report</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_report_chart_color_9f32a25cfb2202101a05b0fa1826ebcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:48</sys_updated_on>
+        <value>2</value>
+    </sys_report_chart_color>
+</record_update>

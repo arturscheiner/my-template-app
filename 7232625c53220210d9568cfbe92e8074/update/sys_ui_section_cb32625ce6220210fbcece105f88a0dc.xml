@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Update your emergency status report" section_id="cb32625ce6220210fbcece105f88a0dc" sys_domain="global" table="x_1434439_my_tem_0_status_report" version="3" view="update_status_report_x_1434439_my_tem_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>cf32625cc62202109a57dc9b873b79db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_emergency</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>c332625cc1220210b390e69545c31bdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_details</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>0f32625cb222021092f6102db86210db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>8332625cd3220210bf7a519a455faddc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>8732625cea22021091fa254aa5ba19db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>0b32625c0b220210e0123ddd7a1518dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>4732625c352202109f08a538368872dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>4b32625c512202104b0706d8d163cddb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>4332625ce2220210ddd78c2514881dda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>0732625cc7220210d5324b19ef3a6bda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>were_other_employees_affected_by_this_emergency</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>8b32625c82220210199d15c987a1eada</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_else_was_affected</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>0b32625c942202108a3cbea11c5abdd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>your_health_status</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>cb32625c7d2202106bcd053a27d056d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>your_work_status</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>c732625ca3220210d8547a8a01eec4da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_update</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_id>cf32625ca4220210ec4914978ca20fd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Update your emergency status report" display_value="Update your emergency status report" name="x_1434439_my_tem_0_status_report" sys_domain="global" view="0332625cac220210099a407bfc41b6db">cb32625ce6220210fbcece105f88a0dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Update your emergency status report</caption>
+            <header>false</header>
+            <name>x_1434439_my_tem_0_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 17:32:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb32625ce6220210fbcece105f88a0dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1434439_my_tem_0_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+            <sys_update_name>sys_ui_section_cb32625ce6220210fbcece105f88a0dc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Update status report (x_snc_emergency_0 ) (x_1434439_my_tem_0)" name="update_status_report_x_1434439_my_tem_0">0332625cac220210099a407bfc41b6db</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

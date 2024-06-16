@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="manager">4f32a25c91220210fda953627b8fa686</autofill_variable>
+        <category/>
+        <description/>
+        <label>Manager</label>
+        <mandatory>false</mandatory>
+        <name>manager</name>
+        <order>30</order>
+        <page/>
+        <parameter_screen display_value="Edit">4332a25c042202102ceaeb9035429786</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:25</sys_created_on>
+        <sys_id>c732a25cb022021052a8de2baa39a686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_input_c732a25cb022021052a8de2baa39a686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:25</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+</record_update>

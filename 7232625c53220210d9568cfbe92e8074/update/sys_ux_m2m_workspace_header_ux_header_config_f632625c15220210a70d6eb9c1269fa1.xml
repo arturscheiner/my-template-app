@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_header_ux_header_config">
+    <sys_ux_m2m_workspace_header_ux_header_config action="INSERT_OR_UPDATE">
+        <header_config display_value="Emergency Alert Header Config">ba32625c032202108396cd03eb0b16a4</header_config>
+        <sys_class_name>sys_ux_m2m_workspace_header_ux_header_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:40</sys_created_on>
+        <sys_id>f632625c15220210a70d6eb9c1269fa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_header_ux_header_config_f632625c15220210a70d6eb9c1269fa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:40</sys_updated_on>
+        <workspace_form_header display_value="x_1434439_my_tem_0_emergency_alert">e732e25ccc220210789edde7fe24b38d</workspace_form_header>
+    </sys_ux_m2m_workspace_header_ux_header_config>
+</record_update>

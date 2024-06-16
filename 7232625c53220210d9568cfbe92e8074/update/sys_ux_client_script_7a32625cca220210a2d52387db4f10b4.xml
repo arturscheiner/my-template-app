@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record">fa32625cdb2202101eeab0806aea03c1</macroponent>
+        <name>Conditionally refresh special handing notes data broker</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, helpers, imports}) {
+    const {name, value} = event.payload;
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const map = value.entries().next().value[1];
+        const activityArray = map.activities.get('crud');
+        if (activityArray.length === 0) return;
+        const { operation } = activityArray[activityArray.length - 1];
+        const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+        if ((operation === 'inserted' || operation === 'updated') && !SHNDisplayed && api.context.props.screen.isActive) {
+           api.data.get_special_handling_notes.refresh();
+        }         
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:44</sys_created_on>
+        <sys_id>7a32625cca220210a2d52387db4f10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditionally refresh special handing notes data broker</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_client_script_7a32625cca220210a2d52387db4f10b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:44</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>your_health_status</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>500</order>
+        <record_id_field/>
+        <screen display_value="Details">db32a25c232202102710e8e2c54a3d97</screen>
+        <screen_data_item_table>x_1434439_my_tem_0_status_report</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:40</sys_created_on>
+        <sys_id>cb32a25cb52202106cc5d2b3e6907770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>your_health_status</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_screen_field_cb32a25cb52202106cc5d2b3e6907770</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:40</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+</record_update>

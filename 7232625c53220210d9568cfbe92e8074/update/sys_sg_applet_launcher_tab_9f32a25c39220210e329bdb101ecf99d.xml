@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="My Status Report (Manager)">d332a25c4e220210f1af70e6ee42b6a2</applet_launcher>
+        <icon display_value="User">1dcb41a2b72200108223e126de11a991</icon>
+        <label>My Status Reports</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:49</sys_created_on>
+        <sys_id>9f32a25c39220210e329bdb101ecf99d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Status Reports</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_9f32a25c39220210e329bdb101ecf99d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:49</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1434439_my_tem_0.WorkStatusRequestTask</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>WorkStatusRequestTask</name>
+        <script><![CDATA[var WorkStatusRequestTask = Class.create();
+WorkStatusRequestTask.prototype = {
+    initialize: function() {},
+    isRequested: function(current) {
+        if (current.status == "closed") {
+            return false;
+        }
+        var statusGR = new GlideRecord("x_1434439_my_tem_0_work_status_request_task");
+        statusGR.addQuery("self_report", current.sys_id);
+        statusGR.addQuery("state", "Requested");
+        statusGR.query();
+        if (statusGR.next()) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    type: 'WorkStatusRequestTask'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:45</sys_created_on>
+        <sys_id>9b32a25cd2220210294106a76c40c2c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkStatusRequestTask</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_script_include_9b32a25cd2220210294106a76c40c2c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:45</sys_updated_on>
+    </sys_script_include>
+</record_update>
