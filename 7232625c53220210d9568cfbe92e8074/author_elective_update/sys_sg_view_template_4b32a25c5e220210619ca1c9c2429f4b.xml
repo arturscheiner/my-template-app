@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="DELETE">
+        <active>true</active>
+        <description>for emergency and comm alerts</description>
+        <name>Community Alerts</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:23</sys_created_on>
+        <sys_id>4b32a25c5e220210619ca1c9c2429f4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Alerts</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_template_4b32a25c5e220210619ca1c9c2429f4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:23</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":16,"Bottom":16},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"view_group_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_08","Id":"text_08"},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Width":25,"Id":"viewgroup_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":24},"MaxLines":1,"CellId":"text_06","Id":"text_06"}]},{"Type":"ViewGroup","Id":"view_group_02","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"ViewGroup","Id":"view_group_03","Margin":{"Left":16},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","TextColor":"#333e3f","Font":{"Weight":"bold","Size":18},"MaxLines":2,"CellId":"text_01","Id":"text_01","Margin":{"Bottom":4}},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":2,"Margin":{"Top":4},"CellId":"text_02","Id":"text_02"}]}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_view_template_4b32a25c5e220210619ca1c9c2429f4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template"><sys_sg_view_template action="INSERT_OR_UPDATE"><active>true</active><description>for emergency and comm alerts</description><name>Community Alerts</name><preview_image/><root_view_attrs_json/><sys_class_name>sys_sg_view_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:23</sys_created_on><sys_id>4b32a25c5e220210619ca1c9c2429f4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Community Alerts</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_view_template_4b32a25c5e220210619ca1c9c2429f4b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:23</sys_updated_on><template_json>{"Type":"ViewGroup","Margin":{"Top":16,"Bottom":16},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"view_group_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_08","Id":"text_08"},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Width":25,"Id":"viewgroup_01","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":24},"MaxLines":1,"CellId":"text_06","Id":"text_06"}]},{"Type":"ViewGroup","Id":"view_group_02","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"ViewGroup","Id":"view_group_03","Margin":{"Left":16},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","TextColor":"#333e3f","Font":{"Weight":"bold","Size":18},"MaxLines":2,"CellId":"text_01","Id":"text_01","Margin":{"Bottom":4}},{"Type":"Text","TextColor":"#637274","Font":{"Weight":"regular","Size":14},"MaxLines":2,"Margin":{"Top":4},"CellId":"text_02","Id":"text_02"}]}]}]}</template_json></sys_sg_view_template></record_update>]]></payload>
+        <payload_hash>-225360490</payload_hash>
+        <record_name>Community Alerts</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>d442128ec3324210b6e3d8ec05013172</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Card template</type>
+        <update_guid>9442128eb83242105ed45a1f4c2e2472</update_guid>
+        <update_guid_history>9442128eb83242105ed45a1f4c2e2472:-225360490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_template">sys_sg_view_template</sys_db_object>
+        <sys_id>04cdcc1822574a10808ddf7f47da3764</sys_id>
+        <sys_metadata>4b32a25c5e220210619ca1c9c2429f4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Alerts</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_4b32a25c5e220210619ca1c9c2429f4b</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_4b32a25c5e220210619ca1c9c2429f4b">d442128ec3324210b6e3d8ec05013172</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

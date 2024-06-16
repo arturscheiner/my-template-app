@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:36</sys_created_on>
+        <sys_id>d332a25cd522021058958a133109adb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1434439.x_1434439_my_tem_0.*.x_1434439_my_tem_0.emergency_alert_admin</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_security_acl display_value="">1732a25c292202108848d4c610d18dbd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d332a25cd522021058958a133109adb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:36</sys_updated_on>
+        <sys_user_role display_value="x_1434439_my_tem_0.emergency_alert_admin" name="x_1434439_my_tem_0.emergency_alert_admin">2f32e25ce1220210f337f1488a4632a3</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_security_acl_role_d332a25cd522021058958a133109adb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:36</sys_created_on><sys_id>d332a25cd522021058958a133109adb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.1434439.x_1434439_my_tem_0.*.x_1434439_my_tem_0.emergency_alert_admin</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_security_acl display_value="">1732a25c292202108848d4c610d18dbd</sys_security_acl><sys_update_name>sys_security_acl_role_d332a25cd522021058958a133109adb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:36</sys_updated_on><sys_user_role display_value="x_1434439_my_tem_0.emergency_alert_admin" name="x_1434439_my_tem_0.emergency_alert_admin">2f32e25ce1220210f337f1488a4632a3</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1010287368</payload_hash>
+        <record_name>x.1434439.x_1434439_my_tem_0.*.x_1434439_my_tem_0.emergency_alert_admin</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>3412960ec3324210b6e3d8ec05013155</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>f012960e353242108a8e18854e35f755</update_guid>
+        <update_guid_history>f012960e353242108a8e18854e35f755:-1010287368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x.1434439.x_1434439_my_tem_0.*.x_1434439_my_tem_0.emergency_alert_admin">3c12960ec3324210b6e3d8ec05013155</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5d6d3fb9f1d24832bdc963c68f844b19</sys_id>
+        <sys_metadata>d332a25cd522021058958a133109adb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1434439.x_1434439_my_tem_0.*.x_1434439_my_tem_0.emergency_alert_admin</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="">1732a25c292202108848d4c610d18dbd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d332a25cd522021058958a133109adb4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d332a25cd522021058958a133109adb4">3412960ec3324210b6e3d8ec05013155</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

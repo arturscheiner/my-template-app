@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>x_1434439_my_tem_0.emapp_footer</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	var footerText = '<div style="font-family: arial, helvetica, sans-serif; font-size: 8pt; text-align: center; color: black;">';
+	var coName = 'Company CO'; // Hard Coded
+	var gdt = new GlideDateTime();
+	var year = gdt.getYearLocalTime();
+	
+	template.print(footerText);
+	template.print("This email was sent by your company's emergency reporting system.");
+	template.print("<br></br>");
+	template.print("</div>");
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:28</sys_created_on>
+        <sys_id>1f32a25c582202100c528188eadf9ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0.emapp_footer</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_script_email_1f32a25c582202100c528188eadf9ac3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:28</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_script_email_1f32a25c582202100c528188eadf9ac3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;x_1434439_my_tem_0.emapp_footer&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	var footerText = '&lt;div style="font-family: arial, helvetica, sans-serif; font-size: 8pt; text-align: center; color: black;"&gt;';
+	var coName = 'Company CO'; // Hard Coded
+	var gdt = new GlideDateTime();
+	var year = gdt.getYearLocalTime();
+	
+	template.print(footerText);
+	template.print("This email was sent by your company's emergency reporting system.");
+	template.print("&lt;br&gt;&lt;/br&gt;");
+	template.print("&lt;/div&gt;");
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:28&lt;/sys_created_on&gt;&lt;sys_id&gt;1f32a25c582202100c528188eadf9ac3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1434439_my_tem_0.emapp_footer&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_1f32a25c582202100c528188eadf9ac3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:28&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1453892289</payload_hash>
+        <record_name>x_1434439_my_tem_0.emapp_footer</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>f6121e0ec3324210b6e3d8ec050131a3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Email Script</type>
+        <update_guid>b6121e0e183242101cb4b73b4de90da3</update_guid>
+        <update_guid_history>b6121e0e183242101cb4b73b4de90da3:1453892289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>8c872313ef274744a14cd75a1aae2090</sys_id>
+        <sys_metadata>1f32a25c582202100c528188eadf9ac3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0.emapp_footer</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_script_email_1f32a25c582202100c528188eadf9ac3</sys_update_name>
+        <sys_update_version display_value="sys_script_email_1f32a25c582202100c528188eadf9ac3">f6121e0ec3324210b6e3d8ec050131a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

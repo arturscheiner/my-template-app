@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_filter">
+    <sys_ux_composite_data_filter action="DELETE">
+        <active>true</active>
+        <dataset display_value="Emergency- self-reports">b632625c762202108991b122507434b1</dataset>
+        <label>Closed</label>
+        <order>300</order>
+        <sys_class_name>sys_ux_composite_data_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_id>3a32625cef2202106e58ad31493b02af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_composite_data_filter_3a32625cef2202106e58ad31493b02af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+    </sys_ux_composite_data_filter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_composite_data_filter_3a32625cef2202106e58ad31493b02af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_filter"><sys_ux_composite_data_filter action="INSERT_OR_UPDATE"><active>true</active><dataset display_value="Emergency- self-reports">b632625c762202108991b122507434b1</dataset><label>Closed</label><order>300</order><sys_class_name>sys_ux_composite_data_filter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:16</sys_created_on><sys_id>3a32625cef2202106e58ad31493b02af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Closed</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_composite_data_filter_3a32625cef2202106e58ad31493b02af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:16</sys_updated_on></sys_ux_composite_data_filter></record_update>]]></payload>
+        <payload_hash>1907086873</payload_hash>
+        <record_name>Closed</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8232da4ec3324210b6e3d8ec050131af</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>EVAM Data Filter</type>
+        <update_guid>4232da4e593242108efdf7aedf623faf</update_guid>
+        <update_guid_history>4232da4e593242108efdf7aedf623faf:1907086873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_filter">sys_ux_composite_data_filter</sys_db_object>
+        <sys_id>1471b25ac7e44b208476e76bed988590</sys_id>
+        <sys_metadata>3a32625cef2202106e58ad31493b02af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_filter_3a32625cef2202106e58ad31493b02af</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_filter_3a32625cef2202106e58ad31493b02af">8232da4ec3324210b6e3d8ec050131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

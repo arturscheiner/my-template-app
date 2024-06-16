@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1434439_my_tem_0.sysCommunityAlertsQuery</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sysCommunityAlertsQuery</name>
+        <script><![CDATA[var sysCommunityAlertsQuery = Class.create();
+sysCommunityAlertsQuery.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sysCommunityAlertsQuery'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:22</sys_created_on>
+        <sys_id>5f32a25ca3220210a1492063330a6fc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysCommunityAlertsQuery</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_script_include_5f32a25ca3220210a1492063330a6fc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:22</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_script_include_5f32a25ca3220210a1492063330a6fc1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1434439_my_tem_0.sysCommunityAlertsQuery&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;sysCommunityAlertsQuery&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var sysCommunityAlertsQuery = Class.create();
+sysCommunityAlertsQuery.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sysCommunityAlertsQuery'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:22&lt;/sys_created_on&gt;&lt;sys_id&gt;5f32a25ca3220210a1492063330a6fc1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sysCommunityAlertsQuery&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5f32a25ca3220210a1492063330a6fc1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1291067116</payload_hash>
+        <record_name>sysCommunityAlertsQuery</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>3742d68ec3324210b6e3d8ec050131cb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Script Include</type>
+        <update_guid>f342d68ed2324210113d9b219f6ce9cb</update_guid>
+        <update_guid_history>f342d68ed2324210113d9b219f6ce9cb:-1291067116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>963cb3ef22374ea08866506c34d18f29</sys_id>
+        <sys_metadata>5f32a25ca3220210a1492063330a6fc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysCommunityAlertsQuery</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_script_include_5f32a25ca3220210a1492063330a6fc1</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5f32a25ca3220210a1492063330a6fc1">3742d68ec3324210b6e3d8ec050131cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

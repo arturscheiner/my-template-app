@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Send emergency alert">d732a25c1c220210ca99bba02fcfacad</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="icon-Megaphone-Solid">5732a25ca2220210ffba6d3d056c0297</icon>
+        <label>Send emergency alert</label>
+        <location>quick_action</location>
+        <name>Send emergency alert</name>
+        <order/>
+        <parent>d332a25c4e220210f1af70e6ee42b6a2</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:41</sys_created_on>
+        <sys_id>1332a25c49220210da264fe0cc193ba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send emergency alert</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_button_instance_1332a25c49220210da264fe0cc193ba2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:41</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_button_instance_1332a25c49220210da264fe0cc193ba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Send emergency alert">d732a25c1c220210ca99bba02fcfacad</button><color_theme>primary</color_theme><description/><disable_offline>false</disable_offline><field_name/><icon display_value="icon-Megaphone-Solid">5732a25ca2220210ffba6d3d056c0297</icon><label>Send emergency alert</label><location>quick_action</location><name>Send emergency alert</name><order/><parent>d332a25c4e220210f1af70e6ee42b6a2</parent><parent_table>sys_sg_applet_launcher</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:41</sys_created_on><sys_id>1332a25c49220210da264fe0cc193ba2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Send emergency alert</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_button_instance_1332a25c49220210da264fe0cc193ba2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:41</sys_updated_on><table/></sys_sg_button_instance></record_update>]]></payload>
+        <payload_hash>-2136698888</payload_hash>
+        <record_name>Send emergency alert</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>b602120ec3324210b6e3d8ec050131c3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Function instance</type>
+        <update_guid>7602120e3c324210a9d3002e9327edc3</update_guid>
+        <update_guid_history>7602120e3c324210a9d3002e9327edc3:-2136698888</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>328a80a4e6fd4ac0b29bea9db2d9a100</sys_id>
+        <sys_metadata>1332a25c49220210da264fe0cc193ba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send emergency alert</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_1332a25c49220210da264fe0cc193ba2</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_1332a25c49220210da264fe0cc193ba2">b602120ec3324210b6e3d8ec050131c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="DELETE">
+        <condition_order/>
+        <datasource_table>x_1434439_my_tem_0_status_report</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Team's Status Reports Form">8732a25c162202108d5d307ef44b3590</embedded_screen>
+        <item_view/>
+        <name>Team's Status Reports Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:03</sys_created_on>
+        <sys_id>4332a25c79220210a96cb7588c9e097a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team's Status Reports Main Item</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_master_item_4332a25c79220210a96cb7588c9e097a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:03</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_master_item_4332a25c79220210a96cb7588c9e097a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_1434439_my_tem_0_status_report</datasource_table><datasource_table_condition/><embedded_screen display_value="Team's Status Reports Form">8732a25c162202108d5d307ef44b3590</embedded_screen><item_view/><name>Team's Status Reports Main Item</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:03</sys_created_on><sys_id>4332a25c79220210a96cb7588c9e097a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team's Status Reports Main Item</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_master_item_4332a25c79220210a96cb7588c9e097a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:03</sys_updated_on><use_view_config>true</use_view_config><view_config/></sys_sg_master_item></record_update>]]></payload>
+        <payload_hash>-756017194</payload_hash>
+        <record_name>Team's Status Reports Main Item</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>a4f19e8ac3324210b6e3d8ec050131de</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>List item config</type>
+        <update_guid>64f19e8a74324210510ce0ce90df85de</update_guid>
+        <update_guid_history>64f19e8a74324210510ce0ce90df85de:-756017194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_item">sys_sg_master_item</sys_db_object>
+        <sys_id>9c8fb16819394caea91a2f5fdbcad699</sys_id>
+        <sys_metadata>4332a25c79220210a96cb7588c9e097a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team's Status Reports Main Item</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_master_item_4332a25c79220210a96cb7588c9e097a</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_item_4332a25c79220210a96cb7588c9e097a">a4f19e8ac3324210b6e3d8ec050131de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

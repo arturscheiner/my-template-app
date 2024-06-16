@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable display_value="your_work_status">8f32a25c2b2202101697e4acd8465c85</autofill_variable>
+        <category/>
+        <description/>
+        <label>Work status</label>
+        <mandatory>false</mandatory>
+        <name>your_work_status</name>
+        <order>50</order>
+        <page/>
+        <parameter_screen display_value="">4332a25c042202102ceaeb9035429786</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:27</sys_created_on>
+        <sys_id>8b32a25cb82202107bf9de6789630f86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work status</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_input_8b32a25cb82202107bf9de6789630f86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:27</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_input_8b32a25cb82202107bf9de6789630f86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable display_value="your_work_status">8f32a25c2b2202101697e4acd8465c85</autofill_variable><category/><description/><label>Work status</label><mandatory>false</mandatory><name>your_work_status</name><order>50</order><page/><parameter_screen display_value="">4332a25c042202102ceaeb9035429786</parameter_screen><parameter_section/><placeholder/><readonly>false</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:27</sys_created_on><sys_id>8b32a25cb82202107bf9de6789630f86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Work status</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_input_8b32a25cb82202107bf9de6789630f86</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:27</sys_updated_on><type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>-265965772</payload_hash>
+        <record_name>Work status</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>a2321e4ec3324210b6e3d8ec050131c2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Input</type>
+        <update_guid>62321e4eb1324210b9d800f393878bc2</update_guid>
+        <update_guid_history>62321e4eb1324210b9d800f393878bc2:-265965772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>1af2db3241b94a00af575bd234db2400</sys_id>
+        <sys_metadata>8b32a25cb82202107bf9de6789630f86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work status</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_input_8b32a25cb82202107bf9de6789630f86</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_8b32a25cb82202107bf9de6789630f86">a2321e4ec3324210b6e3d8ec050131c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

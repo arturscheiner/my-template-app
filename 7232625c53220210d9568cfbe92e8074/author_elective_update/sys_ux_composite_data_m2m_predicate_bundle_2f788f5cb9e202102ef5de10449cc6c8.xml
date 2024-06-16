@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="DELETE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">63788f5cede20210de9cb00675b5c0cd</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">eb788f5c2de202105d6f090a21dec7c9</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:08</sys_created_on>
+        <sys_id>2f788f5cb9e202102ef5de10449cc6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_2f788f5cb9e202102ef5de10449cc6c8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:08</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_composite_data_m2m_predicate_bundle_2f788f5cb9e202102ef5de10449cc6c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle"><sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE"><dataset display_value="Custom Portal Catalog Item page - Related Items dataset">63788f5cede20210de9cb00675b5c0cd</dataset><order/><predicate_bundle display_value="Custom portal - Related items">eb788f5c2de202105d6f090a21dec7c9</predicate_bundle><sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:08</sys_created_on><sys_id>2f788f5cb9e202102ef5de10449cc6c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_2f788f5cb9e202102ef5de10449cc6c8</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:08</sys_updated_on></sys_ux_composite_data_m2m_predicate_bundle></record_update>]]></payload>
+        <payload_hash>991467869</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8432d64ec3324210b6e3d8ec05013107</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>EVAM View Config Bundle M2M</type>
+        <update_guid>4432d64ee032421020040ba9a3267707</update_guid>
+        <update_guid_history>4432d64ee032421020040ba9a3267707:991467869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_predicate_bundle">sys_ux_composite_data_m2m_predicate_bundle</sys_db_object>
+        <sys_id>073756e60d1347869deaee07c3753624</sys_id>
+        <sys_metadata>2f788f5cb9e202102ef5de10449cc6c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_2f788f5cb9e202102ef5de10449cc6c8</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_predicate_bundle_2f788f5cb9e202102ef5de10449cc6c8">8432d64ec3324210b6e3d8ec05013107</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

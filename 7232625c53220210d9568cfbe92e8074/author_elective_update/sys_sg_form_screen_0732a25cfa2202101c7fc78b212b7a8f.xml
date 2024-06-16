@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="DELETE">
+        <alert/>
+        <available_offline>true</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Status Reports Form Icon">0b32a25c4d2202108f768bc4c526cb8e</icon>
+        <item_view/>
+        <name>My Status Reports Form</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:31</sys_created_on>
+        <sys_id>0732a25cfa2202101c7fc78b212b7a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Status Reports Form</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_form_screen_0732a25cfa2202101c7fc78b212b7a8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:31</sys_updated_on>
+        <table>x_1434439_my_tem_0_status_report</table>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_form_screen_0732a25cfa2202101c7fc78b212b7a8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><alert/><available_offline>true</available_offline><data_item/><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="My Status Reports Form Icon">0b32a25c4d2202108f768bc4c526cb8e</icon><item_view/><name>My Status Reports Form</name><override_context_with_data_item>false</override_context_with_data_item><parameter_screen/><roles_override/><segments_height>medium</segments_height><segments_min_width>medium</segments_min_width><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:31</sys_created_on><sys_id>0732a25cfa2202101c7fc78b212b7a8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Status Reports Form</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_form_screen_0732a25cfa2202101c7fc78b212b7a8f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:31</sys_updated_on><table>x_1434439_my_tem_0_status_report</table><use_view_config>true</use_view_config><view_config/></sys_sg_form_screen></record_update>]]></payload>
+        <payload_hash>1778337502</payload_hash>
+        <record_name>My Status Reports Form</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>60f19e8ac3324210b6e3d8ec050131f8</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Record screen</type>
+        <update_guid>20f19e8a0b3242108a3f77faaf5156f8</update_guid>
+        <update_guid_history>20f19e8a0b3242108a3f77faaf5156f8:1778337502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>1103055ab5f2489693d730385612cb84</sys_id>
+        <sys_metadata>0732a25cfa2202101c7fc78b212b7a8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Status Reports Form</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_0732a25cfa2202101c7fc78b212b7a8f</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_0732a25cfa2202101c7fc78b212b7a8f">60f19e8ac3324210b6e3d8ec050131f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

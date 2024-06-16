@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="">be32625c8622021024cfd392f893f4c1</macroponent>
+        <name>OnSubmit</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Required fields cannot be empty",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let startDate = new Date(api.data.report_emergency.nowRecordFormBlob.fields.start_date.value);
+    let endDate = new Date(api.data.report_emergency.nowRecordFormBlob.fields.end_date.value);
+    let othersAffected = api.data.report_emergency.nowRecordFormBlob.fields.were_other_employees_affected_by_this_emergency.value;
+    var mandatoryFields = [];
+    if(othersAffected == 'true'){
+        mandatoryFields.push("who_else_was_affected");
+    }
+    (api.data.report_emergency.nowRecordFormBlob.fieldElements).forEach(function(property) {
+        if (property.dictionary.isMandatory == true) {
+            mandatoryFields.push(property.name);
+        }
+    });
+    if (mandatoryFields) {
+        let count = 0;
+        mandatoryFields.forEach(function(property) {
+            if (!api.data.report_emergency.nowRecordFormBlob.fields[property].value) {
+                count++;
+                helpers.translate("Required fields cannot be empty").then(value => {
+                    api.data.report_emergency.showFieldMessage({
+                        fieldName: property,
+                        message: value,
+                        type: "error"
+                    });
+                });
+            }
+        });
+        if (count) {
+            return;
+        }
+    }
+    /*if (endDate.getTime() < startDate.getTime()) {
+        helpers.translate("End date should not be less than start date").then(value => {
+            api.data.report_emergency.showFieldMessage({
+                fieldName: "end_date",
+                message: value,
+                type: "error"
+            });
+        });
+        return;
+    }*/
+
+    api.data.report_emergency.setValue({
+        "fieldName": "status",
+        "value": "submitted"
+    });
+    api.data.report_emergency.save();
+    const route = "home";
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        params: {
+            reportSubmitted: Date.now()
+        },
+        fields: {}
+    });
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:27</sys_created_on>
+        <sys_id>be32625c1b220210ada4a61ebe1a40be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnSubmit</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_client_script_be32625c1b220210ada4a61ebe1a40be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:27</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_client_script_be32625c1b220210ada4a61ebe1a40be</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value=""&gt;be32625c8622021024cfd392f893f4c1&lt;/macroponent&gt;&lt;name&gt;OnSubmit&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ {
+  "code" : null,
+  "message" : "Required fields cannot be empty",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let startDate = new Date(api.data.report_emergency.nowRecordFormBlob.fields.start_date.value);
+    let endDate = new Date(api.data.report_emergency.nowRecordFormBlob.fields.end_date.value);
+    let othersAffected = api.data.report_emergency.nowRecordFormBlob.fields.were_other_employees_affected_by_this_emergency.value;
+    var mandatoryFields = [];
+    if(othersAffected == 'true'){
+        mandatoryFields.push("who_else_was_affected");
+    }
+    (api.data.report_emergency.nowRecordFormBlob.fieldElements).forEach(function(property) {
+        if (property.dictionary.isMandatory == true) {
+            mandatoryFields.push(property.name);
+        }
+    });
+    if (mandatoryFields) {
+        let count = 0;
+        mandatoryFields.forEach(function(property) {
+            if (!api.data.report_emergency.nowRecordFormBlob.fields[property].value) {
+                count++;
+                helpers.translate("Required fields cannot be empty").then(value =&gt; {
+                    api.data.report_emergency.showFieldMessage({
+                        fieldName: property,
+                        message: value,
+                        type: "error"
+                    });
+                });
+            }
+        });
+        if (count) {
+            return;
+        }
+    }
+    /*if (endDate.getTime() &lt; startDate.getTime()) {
+        helpers.translate("End date should not be less than start date").then(value =&gt; {
+            api.data.report_emergency.showFieldMessage({
+                fieldName: "end_date",
+                message: value,
+                type: "error"
+            });
+        });
+        return;
+    }*/
+
+    api.data.report_emergency.setValue({
+        "fieldName": "status",
+        "value": "submitted"
+    });
+    api.data.report_emergency.save();
+    const route = "home";
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        params: {
+            reportSubmitted: Date.now()
+        },
+        fields: {}
+    });
+
+
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:27&lt;/sys_created_on&gt;&lt;sys_id&gt;be32625c1b220210ada4a61ebe1a40be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OnSubmit&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_be32625c1b220210ada4a61ebe1a40be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:27&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type/&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-726144282</payload_hash>
+        <record_name>OnSubmit</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>e06292cec3324210b6e3d8ec0501315c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Client Script</type>
+        <update_guid>a06292ceb13242104eedb491b74a2b5c</update_guid>
+        <update_guid_history>a06292ceb13242104eedb491b74a2b5c:-726144282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>29b34be04ca846a0a919f0155fe138e4</sys_id>
+        <sys_metadata>be32625c1b220210ada4a61ebe1a40be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnSubmit</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_be32625c1b220210ada4a61ebe1a40be</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_be32625c1b220210ada4a61ebe1a40be">e06292cec3324210b6e3d8ec0501315c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

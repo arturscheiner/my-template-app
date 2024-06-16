@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="DELETE">
+        <action_key>OPEN_NEW_TAB</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c,360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Record Open New Tab</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_6732e25c74220210e6b32b7435416471</payload_field_table>
+        <payload_template>{&#13;
+  "route": "record", &#13;
+  "fields": {  &#13;
+"table":"x_snc_emergency_0_emergency_alert",&#13;
+"sysId":"-1"&#13;
+  }, &#13;
+  "params": { &#13;
+   "views":"sendemergencyalertws_x_snc_emergency_0"&#13;
+&#13;
+  }&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:49</sys_created_on>
+        <sys_id>6732e25c74220210e6b32b7435416471</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Open New Tab</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_6732e25c74220210e6b32b7435416471</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:49</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_declarative_action_payload_definition_6732e25c74220210e6b32b7435416471</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition"><sys_declarative_action_payload_definition action="INSERT_OR_UPDATE"><action_key>OPEN_NEW_TAB</action_key><applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c,360935e9534723003eddddeeff7b127d</applicable_to><description/><label>Record Open New Tab</label><payload_field_table>var__m_sys_declarative_action_payload_field_6732e25c74220210e6b32b7435416471</payload_field_table><payload_template>{&#13;
+  "route": "record", &#13;
+  "fields": {  &#13;
+"table":"x_snc_emergency_0_emergency_alert",&#13;
+"sysId":"-1"&#13;
+  }, &#13;
+  "params": { &#13;
+   "views":"sendemergencyalertws_x_snc_emergency_0"&#13;
+&#13;
+  }&#13;
+}</payload_template><sys_class_name>sys_declarative_action_payload_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:49</sys_created_on><sys_id>6732e25c74220210e6b32b7435416471</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Open New Tab</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_declarative_action_payload_definition_6732e25c74220210e6b32b7435416471</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:49</sys_updated_on></sys_declarative_action_payload_definition></record_update>]]></payload>
+        <payload_hash>-1957658712</payload_hash>
+        <record_name>Record Open New Tab</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>2152da8ec3324210b6e3d8ec05013105</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Action Payload Definition</type>
+        <update_guid>ed52da8e0a3242105202a992fd4bb104</update_guid>
+        <update_guid_history>ed52da8e0a3242105202a992fd4bb104:-1957658712</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_definition">sys_declarative_action_payload_definition</sys_db_object>
+        <sys_id>285e75f424094f76a374dff7063a3684</sys_id>
+        <sys_metadata>6732e25c74220210e6b32b7435416471</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Open New Tab</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_definition_6732e25c74220210e6b32b7435416471</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_definition_6732e25c74220210e6b32b7435416471">2152da8ec3324210b6e3d8ec05013105</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

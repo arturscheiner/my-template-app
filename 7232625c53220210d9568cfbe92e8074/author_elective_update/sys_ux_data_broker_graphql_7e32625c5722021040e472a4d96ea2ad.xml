@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="DELETE">
+        <api_name>x_1434439_my_tem_0.Emergency Alert GlideRecord Query</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Emergency Alert GlideRecord Query</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "returnFields",&#13;
+  "label": "Return fields",&#13;
+  "description": "Returned field values",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "field_list",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "",&#13;
+  "typeMetadata": {&#13;
+        "table": "@table"&#13;
+  }&#13;
+},&#13;
+{&#13;
+  "name": "returnTableMetadata",&#13;
+  "label": "Return table metadata",&#13;
+  "description": "Return table metadata",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "boolean",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": false&#13;
+},&#13;
+{&#13;
+  "name": "returnFieldMetadata",&#13;
+  "label": "Return field metadata",&#13;
+  "description": "Return field metadata",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "boolean",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": false&#13;
+}&#13;
+]</props>
+        <query/>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Return field metadata","comment":""},{"message":"Returned field values","comment":""},{"message":"Record","comment":""},{"message":"Return table metadata","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""},{"message":"Return fields","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:31</sys_created_on>
+        <sys_id>7e32625c5722021040e472a4d96ea2ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert GlideRecord Query</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_7e32625c5722021040e472a4d96ea2ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:31</sys_updated_on>
+        <type>script</type>
+        <use_record_domain>false</use_record_domain>
+    </sys_ux_data_broker_graphql>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_data_broker_graphql_7e32625c5722021040e472a4d96ea2ad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_graphql"&gt;&lt;sys_ux_data_broker_graphql action="INSERT_OR_UPDATE"&gt;&lt;api_name&gt;x_1434439_my_tem_0.Emergency Alert GlideRecord Query&lt;/api_name&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Emergency Alert GlideRecord Query&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+  {&amp;#13;
+  "name": "table",&amp;#13;
+  "label": "Table",&amp;#13;
+  "description": "Table to look up",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "table_name",&amp;#13;
+  "mandatory": true&amp;#13;
+},&amp;#13;
+{&amp;#13;
+  "name": "recordId",&amp;#13;
+  "label": "Record",&amp;#13;
+  "description": "Record to look up (sys_id or display value)",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "string",&amp;#13;
+  "mandatory": true,&amp;#13;
+  "defaultValue": ""&amp;#13;
+},&amp;#13;
+{&amp;#13;
+  "name": "returnFields",&amp;#13;
+  "label": "Return fields",&amp;#13;
+  "description": "Returned field values",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "field_list",&amp;#13;
+  "mandatory": false,&amp;#13;
+  "defaultValue": "",&amp;#13;
+  "typeMetadata": {&amp;#13;
+        "table": "@table"&amp;#13;
+  }&amp;#13;
+},&amp;#13;
+{&amp;#13;
+  "name": "returnTableMetadata",&amp;#13;
+  "label": "Return table metadata",&amp;#13;
+  "description": "Return table metadata",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "boolean",&amp;#13;
+  "mandatory": false,&amp;#13;
+  "defaultValue": false&amp;#13;
+},&amp;#13;
+{&amp;#13;
+  "name": "returnFieldMetadata",&amp;#13;
+  "label": "Return field metadata",&amp;#13;
+  "description": "Return field metadata",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "boolean",&amp;#13;
+  "mandatory": false,&amp;#13;
+  "defaultValue": false&amp;#13;
+}&amp;#13;
+]&lt;/props&gt;&lt;query/&gt;&lt;required_translations&gt;[{"message":"Table","comment":""},{"message":"Table to look up","comment":""},{"message":"Return field metadata","comment":""},{"message":"Returned field values","comment":""},{"message":"Record","comment":""},{"message":"Return table metadata","comment":""},{"message":"Record to look up (sys_id or display value)","comment":""},{"message":"Return fields","comment":""}]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_graphql&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:31&lt;/sys_created_on&gt;&lt;sys_id&gt;7e32625c5722021040e472a4d96ea2ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Emergency Alert GlideRecord Query&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_graphql_7e32625c5722021040e472a4d96ea2ad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:31&lt;/sys_updated_on&gt;&lt;type&gt;script&lt;/type&gt;&lt;use_record_domain&gt;false&lt;/use_record_domain&gt;&lt;/sys_ux_data_broker_graphql&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1759700405</payload_hash>
+        <record_name>Emergency Alert GlideRecord Query</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8562d2cec3324210b6e3d8ec0501314b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>GraphQL Data Broker</type>
+        <update_guid>4562d2ceb93242104c02a4b53e8ea04b</update_guid>
+        <update_guid_history>4562d2ceb93242104c02a4b53e8ea04b:-1759700405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_graphql">sys_ux_data_broker_graphql</sys_db_object>
+        <sys_id>00ffd7f42e5c46738102de3a67066551</sys_id>
+        <sys_metadata>7e32625c5722021040e472a4d96ea2ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert GlideRecord Query</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_graphql_7e32625c5722021040e472a4d96ea2ad</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_graphql_7e32625c5722021040e472a4d96ea2ad">8562d2cec3324210b6e3d8ec0501314b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

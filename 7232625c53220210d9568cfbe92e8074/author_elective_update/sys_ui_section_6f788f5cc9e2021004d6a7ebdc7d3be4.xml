@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="6f788f5cc9e2021004d6a7ebdc7d3be4" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1434439_my_tem_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-05-29 20:19:07</sys_created_on>
+            <sys_id>a7788f5c81e20210bf8b9c4c5cc264e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e3788f5cd2e20210647893834120a2e5">6f788f5cc9e2021004d6a7ebdc7d3be4</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-05-29 20:19:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-05-29 20:19:07</sys_created_on>
+            <sys_id>af788f5cf7e202109eb64b14841577e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e3788f5cd2e20210647893834120a2e5">6f788f5cc9e2021004d6a7ebdc7d3be4</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-05-29 20:19:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-05-29 20:19:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f788f5cc9e2021004d6a7ebdc7d3be4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+            <sys_update_name>sys_ui_section_6f788f5cc9e2021004d6a7ebdc7d3be4</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-05-29 20:19:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_1434439_my_tem_0)" name="custom_portal_approval_x_1434439_my_tem_0">e3788f5cd2e20210647893834120a2e5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ui_section_6f788f5cc9e2021004d6a7ebdc7d3be4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6f788f5cc9e2021004d6a7ebdc7d3be4" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1434439_my_tem_0"><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:07</sys_created_on><sys_id>a7788f5c81e20210bf8b9c4c5cc264e5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e3788f5cd2e20210647893834120a2e5">6f788f5cc9e2021004d6a7ebdc7d3be4</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sysapproval</element><position>1</position><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:07</sys_created_on><sys_id>af788f5cf7e202109eb64b14841577e5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e3788f5cd2e20210647893834120a2e5">6f788f5cc9e2021004d6a7ebdc7d3be4</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sysapproval_approver</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f788f5cc9e2021004d6a7ebdc7d3be4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sysapproval_approver</sys_name><sys_overrides/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ui_section_6f788f5cc9e2021004d6a7ebdc7d3be4</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:07</sys_updated_on><sys_user/><title>false</title><view display_value="Custom portal (x_1434439_my_tem_0)" name="custom_portal_approval_x_1434439_my_tem_0">e3788f5cd2e20210647893834120a2e5</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>718983642</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>375212cec3324210b6e3d8ec0501318c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>f35212ce67324210456bae19d88f648c</update_guid>
+        <update_guid_history>f35212ce67324210456bae19d88f648c:718983642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4f197866bce0476183b1678b78901ab9</sys_id>
+        <sys_metadata>6f788f5cc9e2021004d6a7ebdc7d3be4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="Sysapproval Approver">6a5fedd68db0021087de63ac7f1f00e1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6f788f5cc9e2021004d6a7ebdc7d3be4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6f788f5cc9e2021004d6a7ebdc7d3be4">375212cec3324210b6e3d8ec0501318c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

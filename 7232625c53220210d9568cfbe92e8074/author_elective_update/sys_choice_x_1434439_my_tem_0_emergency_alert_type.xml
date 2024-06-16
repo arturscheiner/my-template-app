@@ -15,43 +15,5 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-05-29 17:32:32</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Community update</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_emergency_alert</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:32</sys_updated_on>
-            <value>community_update</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Emergency information</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_emergency_alert</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:32</sys_updated_on>
-            <value>emergency_information</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

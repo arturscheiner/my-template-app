@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var grs = new GlideRecord("x_1434439_my_tem_0_work_status_request_task");
+    grs.addQuery("sys_id", input.sys_id);
+    grs.query();
+    if (grs.next()) {
+        var gr = new GlideRecord("x_1434439_my_tem_0_status_report");
+        gr.addQuery("sys_id", grs.self_report);
+        gr.query();
+        if (gr.next()) {
+            gr.setValue("status", "status_requested");
+            gr.update();
+        }
+    }
+})(input);]]></execution_script>
+        <name>Request status dashboard</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:17</sys_created_on>
+        <sys_id>5b32a25c72220210f7e97089bd92f299</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request status dashboard</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_5b32a25c72220210f7e97089bd92f299</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:17</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_write_back_action_item_5b32a25c72220210f7e97089bd92f299</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_sg_write_back_action_item"&gt;&lt;sys_sg_write_back_action_item action="INSERT_OR_UPDATE"&gt;&lt;description/&gt;&lt;execution_script&gt;&lt;![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var grs = new GlideRecord("x_1434439_my_tem_0_work_status_request_task");
+    grs.addQuery("sys_id", input.sys_id);
+    grs.query();
+    if (grs.next()) {
+        var gr = new GlideRecord("x_1434439_my_tem_0_status_report");
+        gr.addQuery("sys_id", grs.self_report);
+        gr.query();
+        if (gr.next()) {
+            gr.setValue("status", "status_requested");
+            gr.update();
+        }
+    }
+})(input);]]&gt;&lt;/execution_script&gt;&lt;name&gt;Request status dashboard&lt;/name&gt;&lt;parameter_screen/&gt;&lt;query_condition/&gt;&lt;sys_class_name&gt;sys_sg_write_back_action_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:17&lt;/sys_created_on&gt;&lt;sys_id&gt;5b32a25c72220210f7e97089bd92f299&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request status dashboard&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_sg_write_back_action_item_5b32a25c72220210f7e97089bd92f299&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:17&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;template/&gt;&lt;type&gt;script&lt;/type&gt;&lt;use_current_record_as_condition&gt;true&lt;/use_current_record_as_condition&gt;&lt;use_fields_for_ref_lookup&gt;false&lt;/use_fields_for_ref_lookup&gt;&lt;/sys_sg_write_back_action_item&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1859180796</payload_hash>
+        <record_name>Request status dashboard</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>1b42968ec3324210b6e3d8ec050131d4</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Action item</type>
+        <update_guid>d742968eb832421004d80a9ffde651d4</update_guid>
+        <update_guid_history>d742968eb832421004d80a9ffde651d4:1859180796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>0d7dc485d03b41d0866a8445990ab900</sys_id>
+        <sys_metadata>5b32a25c72220210f7e97089bd92f299</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request status dashboard</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_5b32a25c72220210f7e97089bd92f299</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_5b32a25c72220210f7e97089bd92f299">1b42968ec3324210b6e3d8ec050131d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

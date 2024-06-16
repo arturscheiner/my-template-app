@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_emergency_0_status_report_requests</description>
+        <local_or_existing/>
+        <name>x_1434439_my_tem_0_status_report_requests</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:12</sys_created_on>
+        <sys_id>5332a25cb9220210e34e5b06d963cec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0_status_report_requests</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_security_acl_5332a25cb9220210e34e5b06d963cec1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:12</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_security_acl_5332a25cb9220210e34e5b06d963cec1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_emergency_0_status_report_requests</description><local_or_existing/><name>x_1434439_my_tem_0_status_report_requests</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:12</sys_created_on><sys_id>5332a25cb9220210e34e5b06d963cec1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1434439_my_tem_0_status_report_requests</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_security_acl_5332a25cb9220210e34e5b06d963cec1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1890453664</payload_hash>
+        <record_name>x_1434439_my_tem_0_status_report_requests</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>4ae11a8ac3324210b6e3d8ec050131c1</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Control</type>
+        <update_guid>0ae11a8a42324210b69c3f2573a523c1</update_guid>
+        <update_guid_history>0ae11a8a42324210b69c3f2573a523c1:-1890453664</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>540b89a798b34430baab48e6cf8ee451</sys_id>
+        <sys_metadata>5332a25cb9220210e34e5b06d963cec1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0_status_report_requests</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="">0842265cc3220210b6e3d8ec05013130</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_security_acl_5332a25cb9220210e34e5b06d963cec1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_5332a25cb9220210e34e5b06d963cec1">4ae11a8ac3324210b6e3d8ec050131c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_content_section">
+    <sys_sg_content_section action="DELETE">
+        <active>true</active>
+        <card_size/>
+        <carousel>true</carousel>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_title>true</display_title>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <max_items_display_count>15</max_items_display_count>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <row_count/>
+        <sys_class_name>sys_sg_content_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:10</sys_created_on>
+        <sys_id>0732a25cbb2202104d143bf49b962592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_content_section_0732a25cbb2202104d143bf49b962592</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:10</sys_updated_on>
+        <table/>
+        <title>Dashboard</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_content_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_content_section_0732a25cbb2202104d143bf49b962592</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_content_section"><sys_sg_content_section action="INSERT_OR_UPDATE"><active>true</active><card_size/><carousel>true</carousel><column_count/><custom_height/><custom_width/><data_item/><display_title>true</display_title><hide_header>false</hide_header><hide_section_if_empty>false</hide_section_if_empty><is_custom_size>false</is_custom_size><is_hidden_preference_name/><max_items_display_count>15</max_items_display_count><orientation>horizontal</orientation><required_roles/><row_count/><sys_class_name>sys_sg_content_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:10</sys_created_on><sys_id>0732a25cbb2202104d143bf49b962592</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dashboard</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_content_section_0732a25cbb2202104d143bf49b962592</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:10</sys_updated_on><table/><title>Dashboard</title><visible_condition/><wide_column_count/></sys_sg_content_section></record_update>]]></payload>
+        <payload_hash>-332210442</payload_hash>
+        <record_name>Dashboard</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>bff196cac3324210b6e3d8ec050131ad</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Content Section</type>
+        <update_guid>7ff196caa7324210ea5fe50fe0f71cad</update_guid>
+        <update_guid_history>7ff196caa7324210ea5fe50fe0f71cad:-332210442</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_content_section">sys_sg_content_section</sys_db_object>
+        <sys_id>19e8a2f2702f461293c81f9b173bb4e1</sys_id>
+        <sys_metadata>0732a25cbb2202104d143bf49b962592</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_content_section_0732a25cbb2202104d143bf49b962592</sys_update_name>
+        <sys_update_version display_value="sys_sg_content_section_0732a25cbb2202104d143bf49b962592">bff196cac3324210b6e3d8ec050131ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

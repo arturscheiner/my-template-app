@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="type_of_emergency" table="x_1434439_my_tem_0_status_report" version="3">
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="type_of_emergency" table="x_1434439_my_tem_0_status_report" version="3">
+        <sys_choice_set action="DELETE">
             <element>type_of_emergency</element>
             <name>x_1434439_my_tem_0_status_report</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by/>
             <sys_created_on/>
+            <sys_id>1f62a69cc3220210b6e3d8ec050131f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>type_of_emergency</sys_name>
             <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
@@ -15,195 +16,50 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Aliens</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>aliens</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Blizzard</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>blizzard</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Earthquake</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>earthquake</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Exposure to contagion</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>exposure_to_contagion</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Fire</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>fire</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Flood</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>flood</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Hurricane</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>hurricane</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Illness/injury</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>illness_injury</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>other</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_emergency</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Tornado</label>
-            <language>en</language>
-            <name>x_1434439_my_tem_0_status_report</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 17:32:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 17:32:47</sys_updated_on>
-            <value>tornado</value>
-        </sys_choice>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_choice_x_1434439_my_tem_0_status_report_type_of_emergency</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="type_of_emergency" table="x_1434439_my_tem_0_status_report" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>type_of_emergency</element><name>x_1434439_my_tem_0_status_report</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by/><sys_created_on/><sys_id>1f62a69cc3220210b6e3d8ec050131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>type_of_emergency</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_choice_x_1434439_my_tem_0_status_report_type_of_emergency</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:47</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-2035320538</payload_hash>
+        <record_name>x_1434439_my_tem_0_status_report.type_of_emergency</record_name>
+        <reverted_from/>
+        <source>c4d1da0ec3fe0210b6e3d8ec050131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:53</sys_created_on>
+        <sys_id>81f112cac3324210b6e3d8ec0501315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190212779d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:53</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>09f112caf232421013063a34874d905c</update_guid>
+        <update_guid_history>09f112caf232421013063a34874d905c:-2035320538,81f112caa23242108524a2a79267025a:-1105764208,89f112ca33324210610faf1fdbb99257:2014082558,81f112cafc324210506432e2181cec55:-644445584,89f112cae132421035d4b62caeef7552:-1563928806,05f112ca41324210473edbb74bb9d44b:-1962304524,41f112caed3242106748cc1b07709f30:-1012130258,81f112ca8b324210d4dbc99c0da5b312:-460688368,89f112ca24324210b4e7b974bb77130f:1707929566,09f112cadf324210aaaf53f0743eb10a:559117608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>1f49f3ea7dc64548871cb30c23fb5840</sys_id>
+        <sys_metadata>1f62a69cc3220210b6e3d8ec050131f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type_of_emergency</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="">9442265cc3220210b6e3d8ec05013178</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_choice_x_1434439_my_tem_0_status_report_type_of_emergency</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_1434439_my_tem_0_status_report_type_of_emergency">81f112cac3324210b6e3d8ec0501315d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:35</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

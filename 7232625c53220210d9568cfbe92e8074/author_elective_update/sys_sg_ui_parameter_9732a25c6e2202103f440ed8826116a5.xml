@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="">5732a25c45220210a0755e97e26974ac</button>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>manager</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>search_list</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>true</multi_select>
+        <name>Who else was affected?</name>
+        <order>60</order>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:05</sys_created_on>
+        <sys_id>9732a25c6e2202103f440ed8826116a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Who else was affected?</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_9732a25c6e2202103f440ed8826116a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:05</sys_updated_on>
+        <table_name>sys_user</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_ui_parameter_9732a25c6e2202103f440ed8826116a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="">5732a25c45220210a0755e97e26974ac</button><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name>manager</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>search_list</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>true</multi_select><name>Who else was affected?</name><order>60</order><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:05</sys_created_on><sys_id>9732a25c6e2202103f440ed8826116a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Who else was affected?</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_ui_parameter_9732a25c6e2202103f440ed8826116a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:05</sys_updated_on><table_name>sys_user</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>1687672210</payload_hash>
+        <record_name>Who else was affected?</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>3e42568ec3324210b6e3d8ec050131aa</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UI parameter</type>
+        <update_guid>fa42568e153242106efb37452d755faa</update_guid>
+        <update_guid_history>fa42568e153242106efb37452d755faa:1687672210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>23f3ba917e04441cbc962dc488fc55c4</sys_id>
+        <sys_metadata>9732a25c6e2202103f440ed8826116a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Who else was affected?</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_9732a25c6e2202103f440ed8826116a5</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_9732a25c6e2202103f440ed8826116a5">3e42568ec3324210b6e3d8ec050131aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

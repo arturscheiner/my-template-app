@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="DELETE">
+        <action_assignment display_value="edit_({{count}})">1a3fb85453103300099addeeff7b1259</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>false</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:24</sys_created_on>
+        <sys_id>7e32625c7f220210bd809d8420b75775</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0_work_status_request_task</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_7e32625c7f220210bd809d8420b75775</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:24</sys_updated_on>
+        <table>x_1434439_my_tem_0_work_status_request_task</table>
+        <view/>
+    </sys_workspace_declarative_action_exclusion>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_workspace_declarative_action_exclusion_7e32625c7f220210bd809d8420b75775</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion"><sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE"><action_assignment display_value="edit_({{count}})">1a3fb85453103300099addeeff7b1259</action_assignment><exclude_all_child_tables>false</exclude_all_child_tables><exclude_self>false</exclude_self><sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:24</sys_created_on><sys_id>7e32625c7f220210bd809d8420b75775</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1434439_my_tem_0_work_status_request_task</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_workspace_declarative_action_exclusion_7e32625c7f220210bd809d8420b75775</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:24</sys_updated_on><table>x_1434439_my_tem_0_work_status_request_task</table><view/></sys_workspace_declarative_action_exclusion></record_update>]]></payload>
+        <payload_hash>1621110832</payload_hash>
+        <record_name>x_1434439_my_tem_0_work_status_request_task</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>c162d2cec3324210b6e3d8ec05013151</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Action Exclusion</type>
+        <update_guid>8162d2ce9d3242106d93f07c76329e51</update_guid>
+        <update_guid_history>8162d2ce9d3242106d93f07c76329e51:1621110832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_workspace_declarative_action_exclusion">sys_workspace_declarative_action_exclusion</sys_db_object>
+        <sys_id>a9de760f3e5b4b42995724526c561651</sys_id>
+        <sys_metadata>7e32625c7f220210bd809d8420b75775</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0_work_status_request_task</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_7e32625c7f220210bd809d8420b75775</sys_update_name>
+        <sys_update_version display_value="sys_workspace_declarative_action_exclusion_7e32625c7f220210bd809d8420b75775">c162d2cec3324210b6e3d8ec05013151</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
