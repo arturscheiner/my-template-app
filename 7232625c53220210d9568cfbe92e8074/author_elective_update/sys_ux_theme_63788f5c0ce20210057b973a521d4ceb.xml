@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Light Theme</name>
+        <parent display_value="Default">a309795273230010fd843c78caf6a724</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63788f5c0ce20210057b973a521d4ceb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Light Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_theme_63788f5c0ce20210057b973a521d4ceb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:08</sys_updated_on>
+        <theme>{&#13;
+    "canvas-nav-item--main-nav-navigation--selected--box-shadow": "var(--now-color--primary-3)",&#13;
+    "canvas-menu--background-color": "var(--now-color--primary-0)",&#13;
+    "--now-button--border-radius": "4px",&#13;
+    "--now-color--primary-0": "227, 235, 237",&#13;
+	"--now-color--primary-1": "71, 123, 138",&#13;
+	"--now-color--primary-2": "53, 92, 104",&#13;
+	"--now-color--primary-3": "36, 62, 69",&#13;
+    "--now-button--border-width": "0",&#13;
+	"--now-card--border-radius": "4px"&#13;
+}</theme>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_theme_63788f5c0ce20210057b973a521d4ceb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>Light Theme</name><parent display_value="Default">a309795273230010fd843c78caf6a724</parent><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>63788f5c0ce20210057b973a521d4ceb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Light Theme</sys_name><sys_overrides/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_theme_63788f5c0ce20210057b973a521d4ceb</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:08</sys_updated_on><theme>{&#13;
+    "canvas-nav-item--main-nav-navigation--selected--box-shadow": "var(--now-color--primary-3)",&#13;
+    "canvas-menu--background-color": "var(--now-color--primary-0)",&#13;
+    "--now-button--border-radius": "4px",&#13;
+    "--now-color--primary-0": "227, 235, 237",&#13;
+	"--now-color--primary-1": "71, 123, 138",&#13;
+	"--now-color--primary-2": "53, 92, 104",&#13;
+	"--now-color--primary-3": "36, 62, 69",&#13;
+    "--now-button--border-width": "0",&#13;
+	"--now-card--border-radius": "4px"&#13;
+}</theme></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>-1627620033</payload_hash>
+        <record_name>Light Theme</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>05529a8ec3324210b6e3d8ec05013100</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Theme</type>
+        <update_guid>c1529a8e8e324210988e2eb36febe400</update_guid>
+        <update_guid_history>c1529a8e8e324210988e2eb36febe400:-1627620033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>362cb13b5b0444b58d498cde0883aa99</sys_id>
+        <sys_metadata>63788f5c0ce20210057b973a521d4ceb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Light Theme</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_63788f5c0ce20210057b973a521d4ceb</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_63788f5c0ce20210057b973a521d4ceb">05529a8ec3324210b6e3d8ec05013100</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

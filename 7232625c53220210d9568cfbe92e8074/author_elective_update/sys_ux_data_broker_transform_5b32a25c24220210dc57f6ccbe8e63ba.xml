@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="DELETE">
+        <acl_failure_result/>
+        <api_name>x_1434439_my_tem_0.Self report Summary</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Self report Summary</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+  "name": "table",&#13;
+  "label": "Table",&#13;
+  "description": "Table to look up",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "table_name",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "recordId",&#13;
+  "label": "Record",&#13;
+  "description": "Record to look up (sys_id or display value)",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Record",
+  "comment" : ""
+}, {
+  "message" : "Record to look up (sys_id or display value)",
+  "comment" : ""
+}, {
+  "message" : "Table",
+  "comment" : ""
+}, {
+  "message" : "Table to look up",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var status = '';
+	var workStatus = new GlideRecord('x_1434439_my_tem_0_work_status_request_task');
+	workStatus.addQuery('self_report',input["recordId"]);
+	workStatus.query();
+	if(workStatus.next()){
+		status = workStatus.getDisplayValue('state');
+	}
+	
+    var selfReport = new GlideRecord(input["table"]);
+    if (!selfReport.get(input["recordId"]))
+        return {};
+	var updatedDate = selfReport.getValue("sys_updated_on");
+	var gd = new GlideDate();
+    gd.setValue(updatedDate);
+    var displayBlock = [{
+            "label": gs.getMessage("Manager"),
+            "value": {
+                "type": "string",
+                "value": selfReport.name.manager.getDisplayValue()
+            }
+        }, {
+            "label": gs.getMessage("Location"),
+            "value": {
+                "type": "string",
+                "value": selfReport.name.location.getDisplayValue()
+            }
+        }, {
+            "label": gs.getMessage("Last Updated"),
+            "value": {
+                "type": "string",
+                "value": gd.getDisplayValue()
+            }
+        },
+        {
+            "label": gs.getMessage("Type of emergency"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("type_of_emergency")
+            }
+        },
+        {
+            "label": gs.getMessage("Start date"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("start_date")
+            }
+        },
+        {
+            "label": gs.getMessage("Your health status"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("your_health_status")
+            }
+        },
+        {
+            "label": gs.getMessage("Your work status"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("your_work_status")
+            }
+        },
+        {
+            "label": gs.getMessage("Work status request"),
+            "value": {
+                "type": "string",
+               // "value": selfReport.getDisplayValue("status")
+                "value": status
+            }
+        }
+    ];
+    if (selfReport.getValue("were_other_employees_affected_by_this_emergency") == "1") {
+        displayBlock.push({
+            "label": gs.getMessage("Were others affected?"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("Yes")
+            }
+        });
+
+        displayBlock.push({
+            "label": gs.getMessage("Affected"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("{0} coworkers",selfReport.getValue("who_else_was_affected").split(",").length.toString())
+            }
+        });
+    } else {
+        displayBlock.push({
+            "label": gs.getMessage("Were others affected"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("No")
+            }
+        });
+    }
+    var statesColors = {
+        "Submitted": "positive",
+        "Status requested": "high",
+        "At risk": "critical",
+        "Closed": "low"
+    };
+    var selfReoprtObject = {
+
+        "breadcrumb": [{
+            "label": gs.getMessage("Home"),
+            "href": "x/1434439/x_1434439_my_tem_0/portal/home"
+        }, {
+            "label": selfReport.number + " " + selfReport.getDisplayValue("type_of_emergency"),
+            "href": "#"
+        }],
+        "statusWithNumber": [{
+            "label": gs.getMessage("Highlighted value"),
+            "value": {
+                "type": "highlighted-value",
+                "label": gs.getMessage("{0}", selfReport.getDisplayValue("status")),
+                "status": statesColors[selfReport.getDisplayValue("status")],
+                "showIcon": selfReport.getDisplayValue("status") == "Submitted" || selfReport.getDisplayValue("status") == "At risk" ? false : true
+            }
+        }, {
+            "label": gs.getMessage("Number"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getValue('number')
+            }
+        }],
+        "status": selfReport.status.getDisplayValue(),
+        "dontShowSubmitIcon": selfReport.getDisplayValue("status") == "Submitted" ? false : true,
+        "dontShowRiskIcon": selfReport.getDisplayValue("status") == "At risk" ? false : true,
+        "dontShowClosedIcon": selfReport.getDisplayValue("status") == "Closed" ? false : true,
+        "dontShowStatusRequestedIcon": selfReport.getDisplayValue("status") == "Status requested" ? false : true,
+        "emergencyType": selfReport.type_of_emergency.getDisplayValue(),
+        "emergencyDetails": selfReport.getValue('emergency_details'),
+        "emergencyUpdate": [{
+            "label": gs.getMessage("Emergency Update"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getValue("emergency_update")
+            }
+        }],
+        "emergencyUpdateVisible": selfReport.getValue("emergency_update") ? false : true,
+        "displayBlock": displayBlock
+    };
+    selfReoprtObject["hideClose"] = false;
+    if (selfReport.status.getDisplayValue() == 'Closed')
+        selfReoprtObject["hideClose"] = true;
+
+    return selfReoprtObject;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:46</sys_created_on>
+        <sys_id>5b32a25c24220210dc57f6ccbe8e63ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self report Summary</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_5b32a25c24220210dc57f6ccbe8e63ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:46</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_data_broker_transform_5b32a25c24220210dc57f6ccbe8e63ba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_transform"&gt;&lt;sys_ux_data_broker_transform action="INSERT_OR_UPDATE"&gt;&lt;acl_failure_result/&gt;&lt;api_name&gt;x_1434439_my_tem_0.Self report Summary&lt;/api_name&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Self report Summary&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+  {&amp;#13;
+  "name": "table",&amp;#13;
+  "label": "Table",&amp;#13;
+  "description": "Table to look up",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "table_name",&amp;#13;
+  "mandatory": true&amp;#13;
+},&amp;#13;
+{&amp;#13;
+  "name": "recordId",&amp;#13;
+  "label": "Record",&amp;#13;
+  "description": "Record to look up (sys_id or display value)",&amp;#13;
+  "readOnly": false,&amp;#13;
+  "fieldType": "string",&amp;#13;
+  "mandatory": true,&amp;#13;
+  "defaultValue": ""&amp;#13;
+}&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[ {
+  "message" : "Record",
+  "comment" : ""
+}, {
+  "message" : "Record to look up (sys_id or display value)",
+  "comment" : ""
+}, {
+  "message" : "Table",
+  "comment" : ""
+}, {
+  "message" : "Table to look up",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+	var status = '';
+	var workStatus = new GlideRecord('x_1434439_my_tem_0_work_status_request_task');
+	workStatus.addQuery('self_report',input["recordId"]);
+	workStatus.query();
+	if(workStatus.next()){
+		status = workStatus.getDisplayValue('state');
+	}
+	
+    var selfReport = new GlideRecord(input["table"]);
+    if (!selfReport.get(input["recordId"]))
+        return {};
+	var updatedDate = selfReport.getValue("sys_updated_on");
+	var gd = new GlideDate();
+    gd.setValue(updatedDate);
+    var displayBlock = [{
+            "label": gs.getMessage("Manager"),
+            "value": {
+                "type": "string",
+                "value": selfReport.name.manager.getDisplayValue()
+            }
+        }, {
+            "label": gs.getMessage("Location"),
+            "value": {
+                "type": "string",
+                "value": selfReport.name.location.getDisplayValue()
+            }
+        }, {
+            "label": gs.getMessage("Last Updated"),
+            "value": {
+                "type": "string",
+                "value": gd.getDisplayValue()
+            }
+        },
+        {
+            "label": gs.getMessage("Type of emergency"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("type_of_emergency")
+            }
+        },
+        {
+            "label": gs.getMessage("Start date"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("start_date")
+            }
+        },
+        {
+            "label": gs.getMessage("Your health status"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("your_health_status")
+            }
+        },
+        {
+            "label": gs.getMessage("Your work status"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getDisplayValue("your_work_status")
+            }
+        },
+        {
+            "label": gs.getMessage("Work status request"),
+            "value": {
+                "type": "string",
+               // "value": selfReport.getDisplayValue("status")
+                "value": status
+            }
+        }
+    ];
+    if (selfReport.getValue("were_other_employees_affected_by_this_emergency") == "1") {
+        displayBlock.push({
+            "label": gs.getMessage("Were others affected?"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("Yes")
+            }
+        });
+
+        displayBlock.push({
+            "label": gs.getMessage("Affected"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("{0} coworkers",selfReport.getValue("who_else_was_affected").split(",").length.toString())
+            }
+        });
+    } else {
+        displayBlock.push({
+            "label": gs.getMessage("Were others affected"),
+            "value": {
+                "type": "string",
+                "value": gs.getMessage("No")
+            }
+        });
+    }
+    var statesColors = {
+        "Submitted": "positive",
+        "Status requested": "high",
+        "At risk": "critical",
+        "Closed": "low"
+    };
+    var selfReoprtObject = {
+
+        "breadcrumb": [{
+            "label": gs.getMessage("Home"),
+            "href": "x/1434439/x_1434439_my_tem_0/portal/home"
+        }, {
+            "label": selfReport.number + " " + selfReport.getDisplayValue("type_of_emergency"),
+            "href": "#"
+        }],
+        "statusWithNumber": [{
+            "label": gs.getMessage("Highlighted value"),
+            "value": {
+                "type": "highlighted-value",
+                "label": gs.getMessage("{0}", selfReport.getDisplayValue("status")),
+                "status": statesColors[selfReport.getDisplayValue("status")],
+                "showIcon": selfReport.getDisplayValue("status") == "Submitted" || selfReport.getDisplayValue("status") == "At risk" ? false : true
+            }
+        }, {
+            "label": gs.getMessage("Number"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getValue('number')
+            }
+        }],
+        "status": selfReport.status.getDisplayValue(),
+        "dontShowSubmitIcon": selfReport.getDisplayValue("status") == "Submitted" ? false : true,
+        "dontShowRiskIcon": selfReport.getDisplayValue("status") == "At risk" ? false : true,
+        "dontShowClosedIcon": selfReport.getDisplayValue("status") == "Closed" ? false : true,
+        "dontShowStatusRequestedIcon": selfReport.getDisplayValue("status") == "Status requested" ? false : true,
+        "emergencyType": selfReport.type_of_emergency.getDisplayValue(),
+        "emergencyDetails": selfReport.getValue('emergency_details'),
+        "emergencyUpdate": [{
+            "label": gs.getMessage("Emergency Update"),
+            "value": {
+                "type": "string",
+                "value": selfReport.getValue("emergency_update")
+            }
+        }],
+        "emergencyUpdateVisible": selfReport.getValue("emergency_update") ? false : true,
+        "displayBlock": displayBlock
+    };
+    selfReoprtObject["hideClose"] = false;
+    if (selfReport.status.getDisplayValue() == 'Closed')
+        selfReoprtObject["hideClose"] = true;
+
+    return selfReoprtObject;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_transform&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:46&lt;/sys_created_on&gt;&lt;sys_id&gt;5b32a25c24220210dc57f6ccbe8e63ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Self report Summary&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_transform_5b32a25c24220210dc57f6ccbe8e63ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:46&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_transform&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1377110397</payload_hash>
+        <record_name>Self report Summary</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>1742968ec3324210b6e3d8ec0501319d</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Data Broker Server Script</type>
+        <update_guid>d342968eed324210cd89b71ff63d639d</update_guid>
+        <update_guid_history>d342968eed324210cd89b71ff63d639d:1377110397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_transform">sys_ux_data_broker_transform</sys_db_object>
+        <sys_id>e6fccc75fa1d45da906f5c77eb556f44</sys_id>
+        <sys_metadata>5b32a25c24220210dc57f6ccbe8e63ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self report Summary</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_transform_5b32a25c24220210dc57f6ccbe8e63ba</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_transform_5b32a25c24220210dc57f6ccbe8e63ba">1742968ec3324210b6e3d8ec0501319d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

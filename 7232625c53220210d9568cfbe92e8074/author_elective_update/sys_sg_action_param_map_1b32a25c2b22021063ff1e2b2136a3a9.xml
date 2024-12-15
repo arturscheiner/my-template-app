@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="">1b32a25c13220210aaf6dd4c0ff279ac</button>
+        <item_parameter display_value="Emergency details">1f32a25c5522021030eaf49a736e3bae</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:31</sys_created_on>
+        <sys_id>1b32a25c2b22021063ff1e2b2136a3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f32a25c5522021030eaf49a736e3bae</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_1b32a25c2b22021063ff1e2b2136a3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:31</sys_updated_on>
+        <ui_parameter display_value="">db32a25c9e220210c53a395c17974bac</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_action_param_map_1b32a25c2b22021063ff1e2b2136a3a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="">1b32a25c13220210aaf6dd4c0ff279ac</button><item_parameter display_value="Emergency details">1f32a25c5522021030eaf49a736e3bae</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:31</sys_created_on><sys_id>1b32a25c2b22021063ff1e2b2136a3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1f32a25c5522021030eaf49a736e3bae</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_action_param_map_1b32a25c2b22021063ff1e2b2136a3a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:31</sys_updated_on><ui_parameter display_value="">db32a25c9e220210c53a395c17974bac</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>1479907241</payload_hash>
+        <record_name>1f32a25c5522021030eaf49a736e3bae</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>b5125a0ec3324210b6e3d8ec0501314c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Action parameters mapping</type>
+        <update_guid>75125a0e2b324210b1a5ac96393e244c</update_guid>
+        <update_guid_history>75125a0e2b324210b1a5ac96393e244c:1479907241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>43a5dd59a250455993865157e7d48b81</sys_id>
+        <sys_metadata>1b32a25c2b22021063ff1e2b2136a3a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f32a25c5522021030eaf49a736e3bae</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_1b32a25c2b22021063ff1e2b2136a3a9</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_1b32a25c2b22021063ff1e2b2136a3a9">b5125a0ec3324210b6e3d8ec0501314c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

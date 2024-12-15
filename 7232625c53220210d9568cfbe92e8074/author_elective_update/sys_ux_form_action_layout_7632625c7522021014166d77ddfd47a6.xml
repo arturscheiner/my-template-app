@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout">
+    <sys_ux_form_action_layout action="DELETE">
+        <action_config/>
+        <active>true</active>
+        <description/>
+        <name>Emergency Alert Form Actions</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:45</sys_created_on>
+        <sys_id>7632625c7522021014166d77ddfd47a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert Form Actions</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_7632625c7522021014166d77ddfd47a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:45</sys_updated_on>
+        <table>x_1434439_my_tem_0_status_report</table>
+        <use_layout_items_only>false</use_layout_items_only>
+    </sys_ux_form_action_layout>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_form_action_layout_7632625c7522021014166d77ddfd47a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout"><sys_ux_form_action_layout action="INSERT_OR_UPDATE"><action_config/><active>true</active><description/><name>Emergency Alert Form Actions</name><specificity>10</specificity><sys_class_name>sys_ux_form_action_layout</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:45</sys_created_on><sys_id>7632625c7522021014166d77ddfd47a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Alert Form Actions</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_form_action_layout_7632625c7522021014166d77ddfd47a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:45</sys_updated_on><table>x_1434439_my_tem_0_status_report</table><use_layout_items_only>false</use_layout_items_only></sys_ux_form_action_layout></record_update>]]></payload>
+        <payload_hash>-1382204954</payload_hash>
+        <record_name>Emergency Alert Form Actions</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>7c42528ec3324210b6e3d8ec05013198</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Form Actions Layout</type>
+        <update_guid>3c42528e6b3242103750fd6f6d409c98</update_guid>
+        <update_guid_history>3c42528e6b3242103750fd6f6d409c98:-1382204954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_form_action_layout">sys_ux_form_action_layout</sys_db_object>
+        <sys_id>4e241ef12aca4a0a9bbd10c66ec9c484</sys_id>
+        <sys_metadata>7632625c7522021014166d77ddfd47a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert Form Actions</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_form_action_layout_7632625c7522021014166d77ddfd47a6</sys_update_name>
+        <sys_update_version display_value="sys_ux_form_action_layout_7632625c7522021014166d77ddfd47a6">7c42528ec3324210b6e3d8ec05013198</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

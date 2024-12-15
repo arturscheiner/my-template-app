@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="DELETE">
+        <active>true</active>
+        <condition>text_03=at_risk</condition>
+        <name>Not Responded AtRisk (Form)</name>
+        <order>300</order>
+        <parent_id>0332a25c5f220210dedac14c0d55b090</parent_id>
+        <parent_table>sys_sg_view_config</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_id>0b32a25ccd220210f7c5eae488e03561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not Responded AtRisk (Form)</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_0b32a25ccd220210f7c5eae488e03561</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+        <trigger>fd680bd85b431010da168d8fa881c7c8</trigger>
+        <user_action_id/>
+    </sys_sg_ui_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_ui_rule_0b32a25ccd220210f7c5eae488e03561</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule"><sys_sg_ui_rule action="INSERT_OR_UPDATE"><active>true</active><condition>text_03=at_risk</condition><name>Not Responded AtRisk (Form)</name><order>300</order><parent_id>0332a25c5f220210dedac14c0d55b090</parent_id><parent_table>sys_sg_view_config</parent_table><reverse_if_false>false</reverse_if_false><sys_class_name>sys_sg_ui_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:16</sys_created_on><sys_id>0b32a25ccd220210f7c5eae488e03561</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Not Responded AtRisk (Form)</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_ui_rule_0b32a25ccd220210f7c5eae488e03561</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:16</sys_updated_on><trigger>fd680bd85b431010da168d8fa881c7c8</trigger><user_action_id/></sys_sg_ui_rule></record_update>]]></payload>
+        <payload_hash>812768867</payload_hash>
+        <record_name>Not Responded AtRisk (Form)</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>d902dacac3324210b6e3d8ec05013173</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Mobile UI Rule</type>
+        <update_guid>9902daca8f324210590f2c3fb9635873</update_guid>
+        <update_guid_history>9902daca8f324210590f2c3fb9635873:812768867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule">sys_sg_ui_rule</sys_db_object>
+        <sys_id>6ca1ac31c967418cb6581eca05e60859</sys_id>
+        <sys_metadata>0b32a25ccd220210f7c5eae488e03561</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not Responded AtRisk (Form)</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_0b32a25ccd220210f7c5eae488e03561</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_0b32a25ccd220210f7c5eae488e03561">d902dacac3324210b6e3d8ec05013173</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

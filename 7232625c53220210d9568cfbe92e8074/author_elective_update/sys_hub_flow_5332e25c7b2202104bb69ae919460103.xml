@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>x_1434439_my_tem_0.emergency_alert_app__</internal_name>
+        <label_cache>[{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Record","label":"1➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Table","label":"1➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.self_report","label":"Input➛Self Report","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d2f60b8b-f3da-4d30-b0e6-bde0068c7fc3"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.record","label":"3➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.table_name","label":"3➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.who_else_was_affected","label":"Input➛Self Report➛Who else was affected?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_emergency_0_status_report","column_name":"who_else_was_affected"},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.record","label":"6➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.table_name","label":"6➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.start_date","label":"Input➛Self Report➛Start date","reference":"","reference_display":"Start date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"start_date"},{"name":"subflow.self_report.name.location","label":"Input➛Self Report➛Name➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location"},{"name":"subflow.self_report.end_date","label":"Input➛Self Report➛End date","reference":"","reference_display":"End date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"end_date"},{"name":"subflow.self_report.emergency_details","label":"Input➛Self Report➛Emergency details","reference":"","reference_display":"Emergency details","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_status_report","column_name":"emergency_details"},{"name":"subflow.self_report.name.manager","label":"Input➛Self Report➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>9f32e25ce4220210959cc33a66b53a02</master_snapshot>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>2f32e25c1c22021075b7aa18fa161b9d</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5332e25c7b2202104bb69ae919460103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_hub_flow_5332e25c7b2202104bb69ae919460103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_hub_trigger_instance action="DELETE" query="flow=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=5332e25c7b2202104bb69ae919460103"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5332e25c7b2202104bb69ae919460103^sys_idNOT IN1732e25c3d220210b37b798965f98e03"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5332e25c7b2202104bb69ae919460103</id>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1732e25c3d220210b37b798965f98e03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=1732e25c3d220210b37b798965f98e03"/>
+    <sys_hub_flow_input action="DELETE" query="model=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_flow_output action="DELETE" query="model=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_action_instance action="DELETE" query="flow=5332e25c7b2202104bb69ae919460103^sys_idNOT IN5732e25c052202106a794ddf89a0b102,d332e25cb8220210deecd1c8a8aa3601,df32e25c25220210eeec0f1beb67d401"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5732e25c052202106a794ddf89a0b102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5732e25c052202106a794ddf89a0b102"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5732e25c052202106a794ddf89a0b102</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9332e25ccd2202104ba6845c7e129402</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=5732e25c052202106a794ddf89a0b102"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>5732e25c052202106a794ddf89a0b102</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5f32e25cda220210ae233ed1627b6c00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>5732e25c052202106a794ddf89a0b102</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1b32e25c8a2202105399e65706c88902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>send_report_to={{subflow.self_report.who_else_was_affected}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=5732e25c052202106a794ddf89a0b102"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5732e25c052202106a794ddf89a0b102"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>d332e25cb8220210deecd1c8a8aa3601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>657c3eba-faf6-4814-ae35-08f2037c5901</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d332e25cb8220210deecd1c8a8aa3601"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d332e25cb8220210deecd1c8a8aa3601</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1f32e25cfe2202107f2f52c37fe34701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d332e25cb8220210deecd1c8a8aa3601"/>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>d332e25cb8220210deecd1c8a8aa3601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9732e25c9322021026880a62d5f37101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>send_report_to={{subflow.self_report.who_else_was_affected}}^emergency_start={{subflow.self_report.start_date}}^location={{subflow.self_report.name.location}}^emergency_end={{subflow.self_report.end_date}}^emergency_details={{subflow.self_report.emergency_details}}^requester={{subflow.self_report.name.manager}}^self_report={{subflow.self_report}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=d332e25cb8220210deecd1c8a8aa3601"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=d332e25cb8220210deecd1c8a8aa3601"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>df32e25c25220210eeec0f1beb67d401</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>312b4e41-1183-4357-a0ef-7075367cbdfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=df32e25c25220210eeec0f1beb67d401"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>df32e25c25220210eeec0f1beb67d401</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1332e25c96220210892549428c163701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>df32e25c25220210eeec0f1beb67d401</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5b32e25c7b22021050915fbadb2afa01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=df32e25c25220210eeec0f1beb67d401"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>df32e25c25220210eeec0f1beb67d401</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>db32e25c45220210863d5aa6deb6c302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>self_report={{subflow.self_report}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=df32e25c25220210eeec0f1beb67d401"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=df32e25c25220210eeec0f1beb67d401"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=5332e25c7b2202104bb69ae919460103^sys_idNOT IN1b32a25c772202108dfb9fd30d48abff,9b32e25c14220210c7a7c19d36905000,9f32a25c7422021091da3922122b90ff,d732e25c9d220210e70a3080a2be7700"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">1732e25c9222021013a539a9e0acc800</block>
+        <comment/>
+        <connected_to>1ac73670-2920-497e-9157-fd33b5fc77c9</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1b32a25c772202108dfb9fd30d48abff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=1b32a25c772202108dfb9fd30d48abff"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=1b32a25c772202108dfb9fd30d48abff"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=1b32a25c772202108dfb9fd30d48abff"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">5332e25ce5220210c6cb87c716b27500</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9b32e25c14220210c7a7c19d36905000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=9b32e25c14220210c7a7c19d36905000"/>
+    <sys_element_mapping action="DELETE" query="id=9b32e25c14220210c7a7c19d36905000"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>9b32e25c14220210c7a7c19d36905000</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5732a25c212202103a02a84a4eeb75ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.status}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=9b32e25c14220210c7a7c19d36905000"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=9b32e25c14220210c7a7c19d36905000"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">db32a25c372202107b4ab78ef76d18ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9f32a25c7422021091da3922122b90ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>fc30a075-d30d-417c-b207-5176be690efa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=9f32a25c7422021091da3922122b90ff"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=9f32a25c7422021091da3922122b90ff"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=9f32a25c7422021091da3922122b90ff"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">9332a25c19220210250afdc7218de1ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>d732e25c9d220210e70a3080a2be7700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>db41e865-4db6-4ae7-b181-4ab6a50c5fe4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=d732e25c9d220210e70a3080a2be7700"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=d732e25c9d220210e70a3080a2be7700"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d732e25c9d220210e70a3080a2be7700"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_flow_variable action="DELETE" query="model=5332e25c7b2202104bb69ae919460103"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_5332e25c7b2202104bb69ae919460103"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_5332e25c7b2202104bb69ae919460103"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_5332e25c7b2202104bb69ae919460103"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_5332e25c7b2202104bb69ae919460103"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>x_1434439_my_tem_0.emergency_alert_app__</internal_name>
+        <label_cache>[{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Record","label":"1➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Table","label":"1➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.self_report","label":"Input➛Self Report","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d2f60b8b-f3da-4d30-b0e6-bde0068c7fc3"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.record","label":"3➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.table_name","label":"3➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.who_else_was_affected","label":"Input➛Self Report➛Who else was affected?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_emergency_0_status_report","column_name":"who_else_was_affected"},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.record","label":"6➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.table_name","label":"6➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.start_date","label":"Input➛Self Report➛Start date","reference":"","reference_display":"Start date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"start_date"},{"name":"subflow.self_report.name.location","label":"Input➛Self Report➛Name➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location"},{"name":"subflow.self_report.end_date","label":"Input➛Self Report➛End date","reference":"","reference_display":"End date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"end_date"},{"name":"subflow.self_report.emergency_details","label":"Input➛Self Report➛Emergency details","reference":"","reference_display":"Emergency details","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_status_report","column_name":"emergency_details"},{"name":"subflow.self_report.name.manager","label":"Input➛Self Report➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f32e25ce4220210959cc33a66b53a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_variable_value action="DELETE" query="document_key=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN9732a25cae220210d38e6d59bca3b3fe"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>9f32e25ce4220210959cc33a66b53a02</id>
+        <name>Emergency Alert App - Create Status Report Requests for Affected</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9732a25cae220210d38e6d59bca3b3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=9732a25cae220210d38e6d59bca3b3fe"/>
+    <sys_hub_flow_input action="DELETE" query="model=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_flow_output action="DELETE" query="model=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_action_instance action="DELETE" query="flow=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN1332a25c642202106b1ee5093afc13fe,9b32a25c212202104fc215f40c4175fd,d332a25cef22021078da186601a855fe"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1332a25c642202106b1ee5093afc13fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1332a25c642202106b1ee5093afc13fe"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1332a25c642202106b1ee5093afc13fe</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1b32a25cd32202101f8f18a263a569fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1332a25c642202106b1ee5093afc13fe"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>1332a25c642202106b1ee5093afc13fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>d732a25ca8220210c485fbd0566201fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>1332a25c642202106b1ee5093afc13fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5332a25caf22021097843220763d5bfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>send_report_to={{subflow.self_report.who_else_was_affected}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=1332a25c642202106b1ee5093afc13fe"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=1332a25c642202106b1ee5093afc13fe"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9b32a25c212202104fc215f40c4175fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>657c3eba-faf6-4814-ae35-08f2037c5901</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9b32a25c212202104fc215f40c4175fd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b32a25c212202104fc215f40c4175fd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5732a25c37220210676dd900a3d7e2fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9b32a25c212202104fc215f40c4175fd"/>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>9b32a25c212202104fc215f40c4175fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>db32a25c4e220210b128fec2ca810afc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>send_report_to={{subflow.self_report.who_else_was_affected}}^emergency_start={{subflow.self_report.start_date}}^location={{subflow.self_report.name.location}}^emergency_end={{subflow.self_report.end_date}}^emergency_details={{subflow.self_report.emergency_details}}^requester={{subflow.self_report.name.manager}}^self_report={{subflow.self_report}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=9b32a25c212202104fc215f40c4175fd"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=9b32a25c212202104fc215f40c4175fd"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>d332a25cef22021078da186601a855fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>312b4e41-1183-4357-a0ef-7075367cbdfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d332a25cef22021078da186601a855fe"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d332a25cef22021078da186601a855fe</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1732a25cca220210c1e6b038f4e896fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>x_1434439_my_tem_0_status_report_requests</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d332a25cef22021078da186601a855fe</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>5f32a25c1622021029908884d4f709fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d332a25cef22021078da186601a855fe"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>d332a25cef22021078da186601a855fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9332a25cb2220210421b23f2f2c1d6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>self_report={{subflow.self_report}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=d332a25cef22021078da186601a855fe"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=d332a25cef22021078da186601a855fe"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN1f32a25c59220210d4c979a2e8d6eafb,9732a25c01220210dc4a94d13e2585fb,9f32a25ca6220210f8a282fba0a996fc,df32a25c18220210b0078ea0240adffb"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">9332a25c19220210250afdc7218de1ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>1f32a25c59220210d4c979a2e8d6eafb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>db41e865-4db6-4ae7-b181-4ab6a50c5fe4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=1f32a25c59220210d4c979a2e8d6eafb"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=1f32a25c59220210d4c979a2e8d6eafb"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=1f32a25c59220210d4c979a2e8d6eafb"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">5332e25ce5220210c6cb87c716b27500</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9732a25c01220210dc4a94d13e2585fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=9732a25c01220210dc4a94d13e2585fb"/>
+    <sys_element_mapping action="DELETE" query="id=9732a25c01220210dc4a94d13e2585fb"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>9732a25c01220210dc4a94d13e2585fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>d332a25c0222021053bf382afafb02fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.status}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=9732a25c01220210dc4a94d13e2585fb"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=9732a25c01220210dc4a94d13e2585fb"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">1732e25c9222021013a539a9e0acc800</block>
+        <comment/>
+        <connected_to>1ac73670-2920-497e-9157-fd33b5fc77c9</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>9f32a25ca6220210f8a282fba0a996fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=9f32a25ca6220210f8a282fba0a996fc"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=9f32a25ca6220210f8a282fba0a996fc"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=9f32a25ca6220210f8a282fba0a996fc"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">db32a25c372202107b4ab78ef76d18ff</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_id>df32a25c18220210b0078ea0240adffb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+        <ui_id>fc30a075-d30d-417c-b207-5176be690efa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=df32a25c18220210b0078ea0240adffb"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=df32a25c18220210b0078ea0240adffb"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=df32a25c18220210b0078ea0240adffb"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_flow_variable action="DELETE" query="model=9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_9f32e25ce4220210959cc33a66b53a02"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>5332e25c7b2202104bb69ae919460103</sys_id>
+        <latest_snapshot>9f32e25ce4220210959cc33a66b53a02</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=5332e25c7b2202104bb69ae919460103"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=5332e25c7b2202104bb69ae919460103^sys_idNOT IN5b32a25cd72202108ae52f6249453cfe"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@40859a55</plan>
+        <plan_id display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</plan_id>
+        <snapshot>2b0a48aea7fba010f4adcc5f83a1aeff</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b32a25cd72202108ae52f6249453cfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:42</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_hub_flow_5332e25c7b2202104bb69ae919460103</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>true</active><annotation/><attributes/><authored_on_release_version/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><display_name_after_preview/><flow_priority/><generation_source/><internal_name>x_1434439_my_tem_0.emergency_alert_app__</internal_name><label_cache>[{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Record","label":"1➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Table","label":"1➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.self_report","label":"Input➛Self Report","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d2f60b8b-f3da-4d30-b0e6-bde0068c7fc3"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.record","label":"3➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.table_name","label":"3➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.who_else_was_affected","label":"Input➛Self Report➛Who else was affected?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_emergency_0_status_report","column_name":"who_else_was_affected"},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.record","label":"6➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.table_name","label":"6➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.start_date","label":"Input➛Self Report➛Start date","reference":"","reference_display":"Start date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"start_date"},{"name":"subflow.self_report.name.location","label":"Input➛Self Report➛Name➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location"},{"name":"subflow.self_report.end_date","label":"Input➛Self Report➛End date","reference":"","reference_display":"End date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"end_date"},{"name":"subflow.self_report.emergency_details","label":"Input➛Self Report➛Emergency details","reference":"","reference_display":"Emergency details","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_status_report","column_name":"emergency_details"},{"name":"subflow.self_report.name.manager","label":"Input➛Self Report➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache><master_snapshot>9f32e25ce4220210959cc33a66b53a02</master_snapshot><name>Emergency Alert App - Create Status Report Requests for Affected</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id>2f32e25c1c22021075b7aa18fa161b9d</remote_trigger_id><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>published</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5332e25c7b2202104bb69ae919460103</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name><sys_overrides/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy>read</sys_policy><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_hub_flow_5332e25c7b2202104bb69ae919460103</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><type>subflow</type></sys_hub_flow><sys_hub_trigger_instance action="delete_multiple" query="flow=5332e25c7b2202104bb69ae919460103"/><sys_hub_flow_stage action="delete_multiple" query="flow=5332e25c7b2202104bb69ae919460103"/><sys_flow_cat_variable_model action="delete_multiple" query="id=5332e25c7b2202104bb69ae919460103^sys_idNOT IN1732e25c3d220210b37b798965f98e03"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>5332e25c7b2202104bb69ae919460103</id><name>Emergency Alert App - Create Status Report Requests for Affected</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1732e25c3d220210b37b798965f98e03</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1732e25c3d220210b37b798965f98e03"/><sys_hub_flow_input action="delete_multiple" query="model=5332e25c7b2202104bb69ae919460103"/><sys_hub_flow_output action="delete_multiple" query="model=5332e25c7b2202104bb69ae919460103"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=5332e25c7b2202104bb69ae919460103"/><sys_hub_action_instance action="delete_multiple" query="flow=5332e25c7b2202104bb69ae919460103^sys_idNOT IN5732e25c052202106a794ddf89a0b102,d332e25cb8220210deecd1c8a8aa3601,df32e25c25220210eeec0f1beb67d401"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type><action_type_parent/><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><generation_source/><order>3</order><parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5732e25c052202106a794ddf89a0b102</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=5732e25c052202106a794ddf89a0b102"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>5732e25c052202106a794ddf89a0b102</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9332e25ccd2202104ba6845c7e129402</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=5732e25c052202106a794ddf89a0b102"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record</field><id>5732e25c052202106a794ddf89a0b102</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5f32e25cda220210ae233ed1627b6c00</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table><value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.Record}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>5732e25c052202106a794ddf89a0b102</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1b32e25c8a2202105399e65706c88902</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table><value>send_report_to={{subflow.self_report.who_else_was_affected}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=5732e25c052202106a794ddf89a0b102"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=5732e25c052202106a794ddf89a0b102"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type><action_type_parent/><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><generation_source/><order>6</order><parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>d332e25cb8220210deecd1c8a8aa3601</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>657c3eba-faf6-4814-ae35-08f2037c5901</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d332e25cb8220210deecd1c8a8aa3601"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d332e25cb8220210deecd1c8a8aa3601</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1f32e25cfe2202107f2f52c37fe34701</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d332e25cb8220210deecd1c8a8aa3601"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>d332e25cb8220210deecd1c8a8aa3601</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9732e25c9322021026880a62d5f37101</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value>send_report_to={{subflow.self_report.who_else_was_affected}}^emergency_start={{subflow.self_report.start_date}}^location={{subflow.self_report.name.location}}^emergency_end={{subflow.self_report.end_date}}^emergency_details={{subflow.self_report.emergency_details}}^requester={{subflow.self_report.name.manager}}^self_report={{subflow.self_report}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=d332e25cb8220210deecd1c8a8aa3601"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=d332e25cb8220210deecd1c8a8aa3601"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type><action_type_parent/><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>df32e25c25220210eeec0f1beb67d401</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>312b4e41-1183-4357-a0ef-7075367cbdfb</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=df32e25c25220210eeec0f1beb67d401"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>df32e25c25220210eeec0f1beb67d401</document_key><order>5</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1332e25c96220210892549428c163701</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>1</value><variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>df32e25c25220210eeec0f1beb67d401</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5b32e25c7b22021050915fbadb2afa01</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=df32e25c25220210eeec0f1beb67d401"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>conditions</field><id>df32e25c25220210eeec0f1beb67d401</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>db32e25c45220210863d5aa6deb6c302</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table><value>self_report={{subflow.self_report}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=df32e25c25220210eeec0f1beb67d401"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=df32e25c25220210eeec0f1beb67d401"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=5332e25c7b2202104bb69ae919460103"/><sys_hub_flow_logic action="delete_multiple" query="flow=5332e25c7b2202104bb69ae919460103^sys_idNOT IN1b32a25c772202108dfb9fd30d48abff,9b32e25c14220210c7a7c19d36905000,9f32a25c7422021091da3922122b90ff,d732e25c9d220210e70a3080a2be7700"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">1732e25c9222021013a539a9e0acc800</block><comment/><connected_to>1ac73670-2920-497e-9157-fd33b5fc77c9</connected_to><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition><order>5</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1b32a25c772202108dfb9fd30d48abff</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=1b32a25c772202108dfb9fd30d48abff"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1b32a25c772202108dfb9fd30d48abff"/><sys_hub_input_scripts action="delete_multiple" query="instance=1b32a25c772202108dfb9fd30d48abff"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">5332e25ce5220210c6cb87c716b27500</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><inputs/><logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition><order>2</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9b32e25c14220210c7a7c19d36905000</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=9b32e25c14220210c7a7c19d36905000"/><sys_element_mapping action="delete_multiple" query="id=9b32e25c14220210c7a7c19d36905000"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>condition</field><id>9b32e25c14220210c7a7c19d36905000</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5732a25c212202103a02a84a4eeb75ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table><value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.status}}=0</value></sys_element_mapping><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9b32e25c14220210c7a7c19d36905000"/><sys_hub_input_scripts action="delete_multiple" query="instance=9b32e25c14220210c7a7c19d36905000"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">db32a25c372202107b4ab78ef76d18ff</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition><order>7</order><outputs_assigned/><outputs_to_assign/><parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9f32a25c7422021091da3922122b90ff</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>fc30a075-d30d-417c-b207-5176be690efa</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=9f32a25c7422021091da3922122b90ff"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9f32a25c7422021091da3922122b90ff"/><sys_hub_input_scripts action="delete_multiple" query="instance=9f32a25c7422021091da3922122b90ff"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">9332a25c19220210250afdc7218de1ff</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition><order>4</order><outputs_assigned/><outputs_to_assign/><parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>d732e25c9d220210e70a3080a2be7700</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>db41e865-4db6-4ae7-b181-4ab6a50c5fe4</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=d732e25c9d220210e70a3080a2be7700"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d732e25c9d220210e70a3080a2be7700"/><sys_hub_input_scripts action="delete_multiple" query="instance=d732e25c9d220210e70a3080a2be7700"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=5332e25c7b2202104bb69ae919460103"/><sys_hub_flow_variable action="delete_multiple" query="model=5332e25c7b2202104bb69ae919460103"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5332e25c7b2202104bb69ae919460103"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5332e25c7b2202104bb69ae919460103"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5332e25c7b2202104bb69ae919460103"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5332e25c7b2202104bb69ae919460103"/><sys_hub_flow_snapshot action="INSERT_OR_UPDATE"><access>public</access><acls/><active>true</active><annotation/><attributes/><authored_on_release_version/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><flow_priority/><internal_name>x_1434439_my_tem_0.emergency_alert_app__</internal_name><label_cache>[{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Record","label":"1➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.Table","label":"1➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.self_report","label":"Input➛Self Report","reference":"x_snc_emergency_0_status_report","reference_display":"Self Report","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d2f60b8b-f3da-4d30-b0e6-bde0068c7fc3"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ccf05b28-c2b8-4f45-b2f6-d3d547b8a1ae.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.record","label":"3➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.table_name","label":"3➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.who_else_was_affected","label":"Input➛Self Report➛Who else was affected?","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_emergency_0_status_report","column_name":"who_else_was_affected"},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.record","label":"6➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.table_name","label":"6➛Status Report Request Table","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.self_report.start_date","label":"Input➛Self Report➛Start date","reference":"","reference_display":"Start date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"start_date"},{"name":"subflow.self_report.name.location","label":"Input➛Self Report➛Name➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"location"},{"name":"subflow.self_report.end_date","label":"Input➛Self Report➛End date","reference":"","reference_display":"End date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_emergency_0_status_report","column_name":"end_date"},{"name":"subflow.self_report.emergency_details","label":"Input➛Self Report➛Emergency details","reference":"","reference_display":"Emergency details","type":"string","base_type":"string","parent_table_name":"x_snc_emergency_0_status_report","column_name":"emergency_details"},{"name":"subflow.self_report.name.manager","label":"Input➛Self Report➛Name➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"312b4e41-1183-4357-a0ef-7075367cbdfb.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"657c3eba-faf6-4814-ae35-08f2037c5901.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache><master>true</master><name>Emergency Alert App - Create Status Report Requests for Affected</name><natlang/><outputs/><parent_flow display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</parent_flow><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><status>published</status><sys_class_name>sys_hub_flow_snapshot</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9f32e25ce4220210959cc33a66b53a02</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy>read</sys_policy><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><type>subflow</type></sys_hub_flow_snapshot><sys_translated_text action="delete_multiple" query="documentkey=9f32e25ce4220210959cc33a66b53a02"/><sys_variable_value action="delete_multiple" query="document_key=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_trigger_instance action="delete_multiple" query="flow=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_flow_stage action="delete_multiple" query="flow=9f32e25ce4220210959cc33a66b53a02"/><sys_flow_cat_variable_model action="delete_multiple" query="id=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN9732a25cae220210d38e6d59bca3b3fe"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>9f32e25ce4220210959cc33a66b53a02</id><name>Emergency Alert App - Create Status Report Requests for Affected</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9732a25cae220210d38e6d59bca3b3fe</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9732a25cae220210d38e6d59bca3b3fe"/><sys_hub_flow_input action="delete_multiple" query="model=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_flow_output action="delete_multiple" query="model=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_action_instance action="delete_multiple" query="flow=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN1332a25c642202106b1ee5093afc13fe,9b32a25c212202104fc215f40c4175fd,d332a25cef22021078da186601a855fe"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type><action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><generation_source/><order>3</order><parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1332a25c642202106b1ee5093afc13fe</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>dd2e3d5c-aa3a-4bb0-a7ca-6dda84ffe06a</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=1332a25c642202106b1ee5093afc13fe"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>1332a25c642202106b1ee5093afc13fe</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1b32a25cd32202101f8f18a263a569fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1332a25c642202106b1ee5093afc13fe"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record</field><id>1332a25c642202106b1ee5093afc13fe</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>d732a25ca8220210c485fbd0566201fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table><value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.Record}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>1332a25c642202106b1ee5093afc13fe</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5332a25caf22021097843220763d5bfd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table><value>send_report_to={{subflow.self_report.who_else_was_affected}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=1332a25c642202106b1ee5093afc13fe"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=1332a25c642202106b1ee5093afc13fe"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type><action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><generation_source/><order>6</order><parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9b32a25c212202104fc215f40c4175fd</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>657c3eba-faf6-4814-ae35-08f2037c5901</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9b32a25c212202104fc215f40c4175fd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>9b32a25c212202104fc215f40c4175fd</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5732a25c37220210676dd900a3d7e2fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=9b32a25c212202104fc215f40c4175fd"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>values</field><id>9b32a25c212202104fc215f40c4175fd</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>db32a25c4e220210b128fec2ca810afc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table><value>send_report_to={{subflow.self_report.who_else_was_affected}}^emergency_start={{subflow.self_report.start_date}}^location={{subflow.self_report.name.location}}^emergency_end={{subflow.self_report.end_date}}^emergency_details={{subflow.self_report.emergency_details}}^requester={{subflow.self_report.name.manager}}^self_report={{subflow.self_report}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=9b32a25c212202104fc215f40c4175fd"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=9b32a25c212202104fc215f40c4175fd"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type><action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent><attributes/><comment/><display_text/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>d332a25cef22021078da186601a855fe</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>312b4e41-1183-4357-a0ef-7075367cbdfb</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d332a25cef22021078da186601a855fe"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d332a25cef22021078da186601a855fe</document_key><order>0</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1732a25cca220210c1e6b038f4e896fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>x_1434439_my_tem_0_status_report_requests</value><variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d332a25cef22021078da186601a855fe</document_key><order>5</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>5f32a25c1622021029908884d4f709fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><value>1</value><variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d332a25cef22021078da186601a855fe"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>conditions</field><id>d332a25cef22021078da186601a855fe</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9332a25cb2220210421b23f2f2c1d6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table><value>self_report={{subflow.self_report}}</value></sys_element_mapping><sys_hub_input_scripts action="delete_multiple" query="instance=d332a25cef22021078da186601a855fe"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=d332a25cef22021078da186601a855fe"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_flow_logic action="delete_multiple" query="flow=9f32e25ce4220210959cc33a66b53a02^sys_idNOT IN1f32a25c59220210d4c979a2e8d6eafb,9732a25c01220210dc4a94d13e2585fb,9f32a25ca6220210f8a282fba0a996fc,df32a25c18220210b0078ea0240adffb"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">9332a25c19220210250afdc7218de1ff</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition><order>4</order><outputs_assigned/><outputs_to_assign/><parent_ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</parent_ui_id><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>1f32a25c59220210d4c979a2e8d6eafb</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>db41e865-4db6-4ae7-b181-4ab6a50c5fe4</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=1f32a25c59220210d4c979a2e8d6eafb"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1f32a25c59220210d4c979a2e8d6eafb"/><sys_hub_input_scripts action="delete_multiple" query="instance=1f32a25c59220210d4c979a2e8d6eafb"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">5332e25ce5220210c6cb87c716b27500</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><inputs/><logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition><order>2</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9732a25c01220210dc4a94d13e2585fb</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>1ac73670-2920-497e-9157-fd33b5fc77c9</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=9732a25c01220210dc4a94d13e2585fb"/><sys_element_mapping action="delete_multiple" query="id=9732a25c01220210dc4a94d13e2585fb"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>condition</field><id>9732a25c01220210dc4a94d13e2585fb</id><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>d332a25c0222021053bf382afafb02fb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table><value>{{312b4e41-1183-4357-a0ef-7075367cbdfb.status}}=0</value></sys_element_mapping><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9732a25c01220210dc4a94d13e2585fb"/><sys_hub_input_scripts action="delete_multiple" query="instance=9732a25c01220210dc4a94d13e2585fb"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">1732e25c9222021013a539a9e0acc800</block><comment/><connected_to>1ac73670-2920-497e-9157-fd33b5fc77c9</connected_to><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition><order>5</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>9f32a25ca6220210f8a282fba0a996fc</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=9f32a25ca6220210f8a282fba0a996fc"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9f32a25ca6220210f8a282fba0a996fc"/><sys_hub_input_scripts action="delete_multiple" query="instance=9f32a25ca6220210f8a282fba0a996fc"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><attributes/><block display_value="">db32a25c372202107b4ab78ef76d18ff</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Emergency Alert App - Create Status Report Requests for Affected">9f32e25ce4220210959cc33a66b53a02</flow><flow_variable/><flow_variables_assigned/><generation_source/><inputs/><logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition><order>7</order><outputs_assigned/><outputs_to_assign/><parent_ui_id>054d17c1-bc5f-49b0-813e-baa7af962cdf</parent_ui_id><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_id>df32a25c18220210b0078ea0240adffb</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on><ui_id>fc30a075-d30d-417c-b207-5176be690efa</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=df32a25c18220210b0078ea0240adffb"/><sys_hub_flow_logic_ext_input action="delete_multiple" query="model=df32a25c18220210b0078ea0240adffb"/><sys_hub_input_scripts action="delete_multiple" query="instance=df32a25c18220210b0078ea0240adffb"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=9f32e25ce4220210959cc33a66b53a02"/><sys_hub_flow_variable action="delete_multiple" query="model=9f32e25ce4220210959cc33a66b53a02"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9f32e25ce4220210959cc33a66b53a02"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9f32e25ce4220210959cc33a66b53a02"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9f32e25ce4220210959cc33a66b53a02"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9f32e25ce4220210959cc33a66b53a02"/><sys_hub_flow action="UPDATE"><sys_id>5332e25c7b2202104bb69ae919460103</sys_id><latest_snapshot>9f32e25ce4220210959cc33a66b53a02</latest_snapshot><compiler_build/></sys_hub_flow><sys_flow_trigger_plan action="delete_multiple" query="plan_id=5332e25c7b2202104bb69ae919460103"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=5332e25c7b2202104bb69ae919460103^sys_idNOT IN5b32a25cd72202108ae52f6249453cfe"/><sys_flow_subflow_plan action="INSERT_OR_UPDATE"><plan>com.snc.process_flow.engine.ProcessPlan@40859a55</plan><plan_id display_value="Emergency Alert App - Create Status Report Requests for Affected">5332e25c7b2202104bb69ae919460103</plan_id><snapshot>2b0a48aea7fba010f4adcc5f83a1aeff</snapshot><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b32a25cd72202108ae52f6249453cfe</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:42</sys_updated_on></sys_flow_subflow_plan></record_update>]]></payload>
+        <payload_hash>1198237001</payload_hash>
+        <record_name>Emergency Alert App - Create Status Report Requests for Affected</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>6e42168ec3324210b6e3d8ec050131fe</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Flow</type>
+        <update_guid>2e42168e91324210959c7bcf112f10fe</update_guid>
+        <update_guid_history>2e42168e91324210959c7bcf112f10fe:1198237001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>05f0fcf6a90346e38d79accb0e1c3fb9</sys_id>
+        <sys_metadata>5332e25c7b2202104bb69ae919460103</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert App - Create Status Report Requests for Affected</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5332e25c7b2202104bb69ae919460103</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5332e25c7b2202104bb69ae919460103">6e42168ec3324210b6e3d8ec050131fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

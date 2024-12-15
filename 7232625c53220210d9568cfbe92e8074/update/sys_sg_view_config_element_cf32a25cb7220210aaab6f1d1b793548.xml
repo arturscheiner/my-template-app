@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:23</sys_created_on>
+        <sys_id>cf32a25cb7220210aaab6f1d1b793548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_01_element</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_cf32a25cb7220210aaab6f1d1b793548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:23</sys_updated_on>
+        <view_config display_value="Dashboard records View Config">8b32a25c632202104f199a39a6150b74</view_config>
+        <view_template_slot display_value="text_01">0332a25c57220210279968e0e5cbf848</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="DELETE">
+        <color/>
+        <conditions table="x_1434439_my_tem_0_work_status_request_task">state=Requested^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <form_label_description/>
+        <hide_form_label>false</hide_form_label>
+        <highlighted_value display_value="state">d732e25c7a220210e4353277775a564e</highlighted_value>
+        <icon/>
+        <order>0</order>
+        <show_icon>false</show_icon>
+        <status>warning</status>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_id>1332e25c9a220210450a4249e8d4ba4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_1332e25c9a220210450a4249e8d4ba4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+        <value_override/>
+        <variant/>
+    </sys_highlighted_value_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_highlighted_value_condition_1332e25c9a220210450a4249e8d4ba4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition"><sys_highlighted_value_condition action="INSERT_OR_UPDATE"><color/><conditions table="x_1434439_my_tem_0_work_status_request_task">state=Requested^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><form_label_description/><hide_form_label>false</hide_form_label><highlighted_value display_value="state">d732e25c7a220210e4353277775a564e</highlighted_value><icon/><order>0</order><show_icon>false</show_icon><status>warning</status><sys_class_name>sys_highlighted_value_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:16</sys_created_on><sys_id>1332e25c9a220210450a4249e8d4ba4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_highlighted_value_condition_1332e25c9a220210450a4249e8d4ba4f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:16</sys_updated_on><value_override/><variant/></sys_highlighted_value_condition></record_update>]]></payload>
+        <payload_hash>1841804094</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>4812160ec3324210b6e3d8ec05013112</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Highlighted Value Condition</type>
+        <update_guid>0812160e4c324210338ea04e9ecc6112</update_guid>
+        <update_guid_history>0812160e4c324210338ea04e9ecc6112:1841804094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_highlighted_value_condition">sys_highlighted_value_condition</sys_db_object>
+        <sys_id>7f4c79ce62bf42bea8e03c5c4b188ea4</sys_id>
+        <sys_metadata>1332e25c9a220210450a4249e8d4ba4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_highlighted_value_condition_1332e25c9a220210450a4249e8d4ba4f</sys_update_name>
+        <sys_update_version display_value="sys_highlighted_value_condition_1332e25c9a220210450a4249e8d4ba4f">4812160ec3324210b6e3d8ec05013112</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

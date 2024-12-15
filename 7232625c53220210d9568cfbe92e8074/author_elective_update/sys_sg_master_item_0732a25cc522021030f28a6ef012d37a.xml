@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="DELETE">
+        <condition_order/>
+        <datasource_table>x_1434439_my_tem_0_work_status_request_task</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Not responded Form">4f32a25ced2202109b39d1b070fb1f8f</embedded_screen>
+        <item_view/>
+        <name>Not responded Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:30</sys_created_on>
+        <sys_id>0732a25cc522021030f28a6ef012d37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not responded Main Item</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_master_item_0732a25cc522021030f28a6ef012d37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:30</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_master_item_0732a25cc522021030f28a6ef012d37a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_1434439_my_tem_0_work_status_request_task</datasource_table><datasource_table_condition/><embedded_screen display_value="Not responded Form">4f32a25ced2202109b39d1b070fb1f8f</embedded_screen><item_view/><name>Not responded Main Item</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:30</sys_created_on><sys_id>0732a25cc522021030f28a6ef012d37a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Not responded Main Item</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_master_item_0732a25cc522021030f28a6ef012d37a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:30</sys_updated_on><use_view_config>true</use_view_config><view_config/></sys_sg_master_item></record_update>]]></payload>
+        <payload_hash>-1748530864</payload_hash>
+        <record_name>Not responded Main Item</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>f3d1528ac3324210b6e3d8ec050131df</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>List item config</type>
+        <update_guid>b3d1528a45324210af9472d3b332d2df</update_guid>
+        <update_guid_history>b3d1528a45324210af9472d3b332d2df:-1748530864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_item">sys_sg_master_item</sys_db_object>
+        <sys_id>5b2b0186e30c4664ad48ba2a66c5ebd1</sys_id>
+        <sys_metadata>0732a25cc522021030f28a6ef012d37a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not responded Main Item</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_master_item_0732a25cc522021030f28a6ef012d37a</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_item_0732a25cc522021030f28a6ef012d37a">f3d1528ac3324210b6e3d8ec050131df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

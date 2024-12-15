@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="DELETE">
+        <active>true</active>
+        <name>Self Report Template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:35</sys_created_on>
+        <sys_id>3e32625c21220210f0a2497e3f35f0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Report Template</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_3e32625c21220210f0a2497e3f35f0ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:35</sys_updated_on>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"highlightedHeaderBkgColor": "moderate",&#13;
+        "highlightedHeaderIcon":"presence-fill",&#13;
+		"detailLabelOne": "Health Status",&#13;
+		"detailLabelTwo": "Work Status",&#13;
+        "detailLabelThree": "Work request status"&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "status",&#13;
+        "textHeaderLabel":"sys_updated_on",&#13;
+		"titleLabel": "type_of_emergency",&#13;
+        "avatarName":"sys_created_by",&#13;
+		"subtitle": "emergency_details",&#13;
+		"detailValueOne": "your_health_status",&#13;
+		"detailValueTwo": "your_work_status",&#13;
+        "detailValueThree":"your_work_status"&#13;
+	},&#13;
+"actionMappings":{&#13;
+"clickAction":"navigation",&#13;
+"mainActions": ["updatestatus"]&#13;
+}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_composite_data_template_3e32625c21220210f0a2497e3f35f0ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template"><sys_ux_composite_data_template action="INSERT_OR_UPDATE"><active>true</active><name>Self Report Template</name><sys_class_name>sys_ux_composite_data_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:35</sys_created_on><sys_id>3e32625c21220210f0a2497e3f35f0ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self Report Template</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_composite_data_template_3e32625c21220210f0a2497e3f35f0ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:35</sys_updated_on><template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"highlightedHeaderBkgColor": "moderate",&#13;
+        "highlightedHeaderIcon":"presence-fill",&#13;
+		"detailLabelOne": "Health Status",&#13;
+		"detailLabelTwo": "Work Status",&#13;
+        "detailLabelThree": "Work request status"&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "status",&#13;
+        "textHeaderLabel":"sys_updated_on",&#13;
+		"titleLabel": "type_of_emergency",&#13;
+        "avatarName":"sys_created_by",&#13;
+		"subtitle": "emergency_details",&#13;
+		"detailValueOne": "your_health_status",&#13;
+		"detailValueTwo": "your_work_status",&#13;
+        "detailValueThree":"your_work_status"&#13;
+	},&#13;
+"actionMappings":{&#13;
+"clickAction":"navigation",&#13;
+"mainActions": ["updatestatus"]&#13;
+}&#13;
+}</template></sys_ux_composite_data_template></record_update>]]></payload>
+        <payload_hash>1790611993</payload_hash>
+        <record_name>Self Report Template</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8a32da4ec3324210b6e3d8ec050131f9</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>View Template</type>
+        <update_guid>4a32da4e4b324210d65874fd867126f9</update_guid>
+        <update_guid_history>4a32da4e4b324210d65874fd867126f9:1790611993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_template">sys_ux_composite_data_template</sys_db_object>
+        <sys_id>3d2a727f53c84307941461194d9166f9</sys_id>
+        <sys_metadata>3e32625c21220210f0a2497e3f35f0ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Report Template</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_template_3e32625c21220210f0a2497e3f35f0ae</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_template_3e32625c21220210f0a2497e3f35f0ae">8a32da4ec3324210b6e3d8ec050131f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="">0b32625c182202109da41bc9fe9dedd3</macroponent>
+        <name>ReportSummaryPage</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const currentSysId = event.payload.sysId;
+    var items = api.data.evam_emergency_alert_composite_databroker_1.compositeDataViews.items;
+    var status = false;
+    items.forEach(function(property){
+        if(property.propValues.model.sysId== currentSysId && property.propValues.model.status =="Status requested" ){
+            status = true;
+        }
+    });
+ if (!status){
+    helpers.navigate.to("report",{
+        "table":event.payload.table,
+        "sysId":event.payload.sysId
+    }); 
+}
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:13</sys_created_on>
+        <sys_id>f232625c6f2202104e44f05bbfde7cb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReportSummaryPage</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_client_script_f232625c6f2202104e44f05bbfde7cb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:13</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_client_script_f232625c6f2202104e44f05bbfde7cb4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value=""&gt;0b32625c182202109da41bc9fe9dedd3&lt;/macroponent&gt;&lt;name&gt;ReportSummaryPage&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const currentSysId = event.payload.sysId;
+    var items = api.data.evam_emergency_alert_composite_databroker_1.compositeDataViews.items;
+    var status = false;
+    items.forEach(function(property){
+        if(property.propValues.model.sysId== currentSysId &amp;&amp; property.propValues.model.status =="Status requested" ){
+            status = true;
+        }
+    });
+ if (!status){
+    helpers.navigate.to("report",{
+        "table":event.payload.table,
+        "sysId":event.payload.sysId
+    }); 
+}
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:13&lt;/sys_created_on&gt;&lt;sys_id&gt;f232625c6f2202104e44f05bbfde7cb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReportSummaryPage&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_f232625c6f2202104e44f05bbfde7cb4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:13&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type/&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>402731191</payload_hash>
+        <record_name>ReportSummaryPage</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>90025acac3324210b6e3d8ec05013122</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Client Script</type>
+        <update_guid>50025aca6a324210039c0f94a1f81722</update_guid>
+        <update_guid_history>50025aca6a324210039c0f94a1f81722:402731191</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1f7a17327d7f462cbc245e97a3153c24</sys_id>
+        <sys_metadata>f232625c6f2202104e44f05bbfde7cb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReportSummaryPage</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_f232625c6f2202104e44f05bbfde7cb4</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_f232625c6f2202104e44f05bbfde7cb4">90025acac3324210b6e3d8ec05013122</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

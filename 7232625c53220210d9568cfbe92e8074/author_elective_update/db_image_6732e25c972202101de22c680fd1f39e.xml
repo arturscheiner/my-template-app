@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>227</height>
+        <image>2b32e25c8c220210e2eb700f3a9f729e</image>
+        <name>x_1434439_my_tem_0.green-tick.png</name>
+        <size_bytes>3348</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:27</sys_created_on>
+        <sys_id>6732e25c972202101de22c680fd1f39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0.green-tick.png</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>db_image_6732e25c972202101de22c680fd1f39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:27</sys_updated_on>
+        <thumbnail/>
+        <width>222</width>
+    </db_image>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>db_image_6732e25c972202101de22c680fd1f39e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format>png</format><height>227</height><image>2b32e25c8c220210e2eb700f3a9f729e</image><name>x_1434439_my_tem_0.green-tick.png</name><size_bytes>3348</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:27</sys_created_on><sys_id>6732e25c972202101de22c680fd1f39e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1434439_my_tem_0.green-tick.png</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>db_image_6732e25c972202101de22c680fd1f39e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:27</sys_updated_on><thumbnail/><width>222</width></db_image></record_update>]]></payload>
+        <payload_hash>226983876</payload_hash>
+        <record_name>x_1434439_my_tem_0.green-tick.png</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>6d52da8ec3324210b6e3d8ec05013124</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Images</type>
+        <update_guid>2d52da8e2e3242107ce0e3ae6909b424</update_guid>
+        <update_guid_history>2d52da8e2e3242107ce0e3ae6909b424:226983876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1434439_my_tem_0.green-tick.png">e152da8ec3324210b6e3d8ec05013125</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:33</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>937dba181d9449b48f0e2105b1451c10</sys_id>
+        <sys_metadata>6732e25c972202101de22c680fd1f39e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1434439_my_tem_0.green-tick.png</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>db_image_6732e25c972202101de22c680fd1f39e</sys_update_name>
+        <sys_update_version display_value="db_image_6732e25c972202101de22c680fd1f39e">6d52da8ec3324210b6e3d8ec05013124</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

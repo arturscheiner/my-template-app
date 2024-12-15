@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="">ef788f5c2be20210d351b23f77c32ee3</macroponent>
+        <name>fetch related catalog items info</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var input = api.data.evam_data_resource_1.compositeDataViews;
+    var result = [];
+    var filterOutRecords = api.data.look_up_records_1.results.map((element) => {
+        return element.sys_id.value;
+    });
+    for (var i = 0; i < input.items.length; i++) {
+        var model = input.items[i].propValues;
+        if (filterOutRecords.indexOf(model.model.sys_id) != -1) {
+            if (model.model["related_sc_cat_item.recurring_frequency"] != null)
+                model.subtitle = model.subtitle + " with " + model.model["related_sc_cat_item.recurring_price"] + " " + model.model["related_sc_cat_item.recurring_frequency"];
+            result.push(input.items[i]);
+        }
+    }
+    input.items = result;
+    api.setState('relatedCatalogItems', input);
+    if (input.items.length > 0) {
+        api.setState('rowVisibility', false);
+    } else {
+        api.setState('rowVisibility', true);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:11</sys_created_on>
+        <sys_id>af788f5ccfe20210c86c0c643f62b5cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetch related catalog items info</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_client_script_af788f5ccfe20210c86c0c643f62b5cf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:11</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_client_script_af788f5ccfe20210c86c0c643f62b5cf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value=""&gt;ef788f5c2be20210d351b23f77c32ee3&lt;/macroponent&gt;&lt;name&gt;fetch related catalog items info&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var input = api.data.evam_data_resource_1.compositeDataViews;
+    var result = [];
+    var filterOutRecords = api.data.look_up_records_1.results.map((element) =&gt; {
+        return element.sys_id.value;
+    });
+    for (var i = 0; i &lt; input.items.length; i++) {
+        var model = input.items[i].propValues;
+        if (filterOutRecords.indexOf(model.model.sys_id) != -1) {
+            if (model.model["related_sc_cat_item.recurring_frequency"] != null)
+                model.subtitle = model.subtitle + " with " + model.model["related_sc_cat_item.recurring_price"] + " " + model.model["related_sc_cat_item.recurring_frequency"];
+            result.push(input.items[i]);
+        }
+    }
+    input.items = result;
+    api.setState('relatedCatalogItems', input);
+    if (input.items.length &gt; 0) {
+        api.setState('rowVisibility', false);
+    } else {
+        api.setState('rowVisibility', true);
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 20:19:11&lt;/sys_created_on&gt;&lt;sys_id&gt;af788f5ccfe20210c86c0c643f62b5cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;fetch related catalog items info&lt;/sys_name&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_af788f5ccfe20210c86c0c643f62b5cf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 20:19:11&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1693162780</payload_hash>
+        <record_name>fetch related catalog items info</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8222d24ec3324210b6e3d8ec050131c3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Client Script</type>
+        <update_guid>4222d24ee33242100675a72bbdfaadc3</update_guid>
+        <update_guid_history>4222d24ee33242100675a72bbdfaadc3:1693162780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3399bed47a2243a090da69d59b4e6400</sys_id>
+        <sys_metadata>af788f5ccfe20210c86c0c643f62b5cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetch related catalog items info</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_af788f5ccfe20210c86c0c643f62b5cf</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_af788f5ccfe20210c86c0c643f62b5cf">8222d24ec3324210b6e3d8ec050131c3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

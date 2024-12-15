@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Emergency alert message</name>
+        <parent>df32a25c4f22021051847c2dfc69a799</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:22</sys_created_on>
+        <sys_id>d732a25c9d220210889ac23da92db5a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency alert message</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_d732a25c9d220210889ac23da92db5a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:22</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

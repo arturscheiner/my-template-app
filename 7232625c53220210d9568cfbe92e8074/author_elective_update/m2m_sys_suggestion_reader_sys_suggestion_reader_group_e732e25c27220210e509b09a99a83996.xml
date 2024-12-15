@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group">
+    <m2m_sys_suggestion_reader_sys_suggestion_reader_group action="DELETE">
+        <order>100</order>
+        <reader_requested_fields/>
+        <reader_searchable_fields/>
+        <sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:40</sys_created_on>
+        <sys_id>e732e25c27220210e509b09a99a83996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_suggestion_reader_group_id display_value="Recent Search Reader Group for Emergency alert Workspace">af32e25c1d220210090e3e7181718995</sys_suggestion_reader_group_id>
+        <sys_suggestion_reader_id display_value="User History Reader">1ee419777320001052c7d5fdbdf6a7ad</sys_suggestion_reader_id>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_e732e25c27220210e509b09a99a83996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:40</sys_updated_on>
+    </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_e732e25c27220210e509b09a99a83996</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group"><m2m_sys_suggestion_reader_sys_suggestion_reader_group action="INSERT_OR_UPDATE"><order>100</order><reader_requested_fields/><reader_searchable_fields/><sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:40</sys_created_on><sys_id>e732e25c27220210e509b09a99a83996</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_suggestion_reader_group_id display_value="Recent Search Reader Group for Emergency alert Workspace">af32e25c1d220210090e3e7181718995</sys_suggestion_reader_group_id><sys_suggestion_reader_id display_value="User History Reader">1ee419777320001052c7d5fdbdf6a7ad</sys_suggestion_reader_id><sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_e732e25c27220210e509b09a99a83996</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:40</sys_updated_on></m2m_sys_suggestion_reader_sys_suggestion_reader_group></record_update>]]></payload>
+        <payload_hash>-1837058471</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>b8525a8ec3324210b6e3d8ec05013182</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Suggestion Reader and Suggestion Reader </type>
+        <update_guid>78525a8e9a3242100f74dd8db948d482</update_guid>
+        <update_guid_history>78525a8e9a3242100f74dd8db948d482:-1837058471</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">70525a8ec3324210b6e3d8ec05013183</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:30</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_suggestion_reader_sys_suggestion_reader_group">m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_db_object>
+        <sys_id>18f649c00ee34397847b15e37f17c2d9</sys_id>
+        <sys_metadata>e732e25c27220210e509b09a99a83996</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_e732e25c27220210e509b09a99a83996</sys_update_name>
+        <sys_update_version display_value="m2m_sys_suggestion_reader_sys_suggestion_reader_group_e732e25c27220210e509b09a99a83996">b8525a8ec3324210b6e3d8ec05013182</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

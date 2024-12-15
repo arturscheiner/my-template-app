@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="DELETE">
+        <active>true</active>
+        <description>Emergency alert generic template</description>
+        <name>Emergency Alert</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:32</sys_created_on>
+        <sys_id>0f32a25c8e220210120a953bab5dae4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_template_0f32a25c8e220210120a953bab5dae4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:32</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Margin":{"Bottom":0},"CornerRadius":3,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":10},"MaxLines":1,"CellId":"text_01","Id":"text_01","Margin":{"Left":5,"Top":3,"Bottom":3},"TextAlignment":"Left"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_02","Id":"text_02","Margin":{"Right":5,"Top":3,"Bottom":3}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_03","Margin":{"Bottom":5,"Right":0,"Top":5},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":16},"MaxLines":2,"CellId":"text_03","Id":"text_03"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_04","Id":"text_04","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_05","Id":"text_05"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_05","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_07","Id":"text_07"}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_view_template_0f32a25c8e220210120a953bab5dae4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template"><sys_sg_view_template action="INSERT_OR_UPDATE"><active>true</active><description>Emergency alert generic template</description><name>Emergency Alert</name><preview_image/><root_view_attrs_json/><sys_class_name>sys_sg_view_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:32</sys_created_on><sys_id>0f32a25c8e220210120a953bab5dae4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Alert</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_view_template_0f32a25c8e220210120a953bab5dae4b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:32</sys_updated_on><template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":"viewgroup_01","Margin":{"Bottom":0},"CornerRadius":3,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":10},"MaxLines":1,"CellId":"text_01","Id":"text_01","Margin":{"Left":5,"Top":3,"Bottom":3},"TextAlignment":"Left"},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_02","Id":"text_02","Margin":{"Right":5,"Top":3,"Bottom":3}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_03","Margin":{"Bottom":5,"Right":0,"Top":5},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":16},"MaxLines":2,"CellId":"text_03","Id":"text_03"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_04","Id":"text_04","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_05","Id":"text_05"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_05","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06","Margin":{"Right":5}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_07","Id":"text_07"}]}]}</template_json></sys_sg_view_template></record_update>]]></payload>
+        <payload_hash>-1279917931</payload_hash>
+        <record_name>Emergency Alert</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>da029ecac3324210b6e3d8ec050131d8</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Card template</type>
+        <update_guid>9a029ecab9324210ed0be7ea8803c9d8</update_guid>
+        <update_guid_history>9a029ecab9324210ed0be7ea8803c9d8:-1279917931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_template">sys_sg_view_template</sys_db_object>
+        <sys_id>252c25cfe6cb4f8892aeeef25a65d6e4</sys_id>
+        <sys_metadata>0f32a25c8e220210120a953bab5dae4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_0f32a25c8e220210120a953bab5dae4b</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_0f32a25c8e220210120a953bab5dae4b">da029ecac3324210b6e3d8ec050131d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

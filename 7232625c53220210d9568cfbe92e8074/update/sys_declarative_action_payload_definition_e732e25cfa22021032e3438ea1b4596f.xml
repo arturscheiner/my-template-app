@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>RESPOND_REQUEST_APPROVE</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d,c3547169534723003eddddeeff7b126c</applicable_to>
+        <description/>
+        <label>Respond to request</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_e732e25cfa22021032e3438ea1b4596f</payload_field_table>
+        <payload_template/>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:15</sys_created_on>
+        <sys_id>e732e25cfa22021032e3438ea1b4596f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Respond to request</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_e732e25cfa22021032e3438ea1b4596f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:15</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

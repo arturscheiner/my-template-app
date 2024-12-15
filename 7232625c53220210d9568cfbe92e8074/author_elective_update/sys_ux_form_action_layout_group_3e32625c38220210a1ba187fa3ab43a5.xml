@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_group">
+    <sys_ux_form_action_layout_group action="DELETE">
+        <actions>3a32625c4f2202102a3e19a8f2ab2ea6,7232625cf0220210355d1fc5d35afca7</actions>
+        <active>true</active>
+        <description/>
+        <name>Approve/Reject</name>
+        <sys_class_name>sys_ux_form_action_layout_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:45</sys_created_on>
+        <sys_id>3e32625c38220210a1ba187fa3ab43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve/Reject</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_group_3e32625c38220210a1ba187fa3ab43a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:45</sys_updated_on>
+        <table>x_1434439_my_tem_0_status_report</table>
+        <type>0</type>
+    </sys_ux_form_action_layout_group>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_form_action_layout_group_3e32625c38220210a1ba187fa3ab43a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_group"><sys_ux_form_action_layout_group action="INSERT_OR_UPDATE"><actions>3a32625c4f2202102a3e19a8f2ab2ea6,7232625cf0220210355d1fc5d35afca7</actions><active>true</active><description/><name>Approve/Reject</name><sys_class_name>sys_ux_form_action_layout_group</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:45</sys_created_on><sys_id>3e32625c38220210a1ba187fa3ab43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approve/Reject</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_form_action_layout_group_3e32625c38220210a1ba187fa3ab43a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:45</sys_updated_on><table>x_1434439_my_tem_0_status_report</table><type>0</type></sys_ux_form_action_layout_group></record_update>]]></payload>
+        <payload_hash>-954094978</payload_hash>
+        <record_name>Approve/Reject</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>c6321e4ec3324210b6e3d8ec05013104</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Form Actions Layout Group</type>
+        <update_guid>86321e4ef43242102862f7fc509a3904</update_guid>
+        <update_guid_history>86321e4ef43242102862f7fc509a3904:-954094978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_form_action_layout_group">sys_ux_form_action_layout_group</sys_db_object>
+        <sys_id>005cc6220d3b49f08000742b62b8a410</sys_id>
+        <sys_metadata>3e32625c38220210a1ba187fa3ab43a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve/Reject</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_form_action_layout_group_3e32625c38220210a1ba187fa3ab43a5</sys_update_name>
+        <sys_update_version display_value="sys_ux_form_action_layout_group_3e32625c38220210a1ba187fa3ab43a5">c6321e4ec3324210b6e3d8ec05013104</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>emergency portal theme</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b32e25ce322021054599de9e6138b9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>emergency portal theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_theme_2b32e25ce322021054599de9e6138b9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+        <theme>{&#13;
+    "--now-canvas-header-container--background-color": "41, 62, 64",&#13;
+    "--now-font-family" : "Roboto",&#13;
+    "--now-button--primary-negative--background-color": "214,45,50",&#13;
+    "--now-button--primary-negative--border-color": "214,45,50",&#13;
+    "--now-button--primary--background-color": "15,67,55",&#13;
+    "--now-heading--header-primary--color": "66,80,81",&#13;
+    "--now-color--secondary-2": "22,27,28",&#13;
+    "--now-text-link--font-family": "Roboto",&#13;
+    "--now-display-type--font-family": "Cabin",&#13;
+    "--now-label-value_label--font-family": "Roboto",&#13;
+    "--now-label-value_value--font-family": "Roboto",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+    "--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-color--neutral-12": "22,27,28",&#13;
+    "--now-highlighted-value--font-family": "Roboto",&#13;
+    "--now-highlighted-value_icon--tertiary_high--color": "221,145,34",&#13;
+    "--now-heading--header-primary--font-family": "Cabin",&#13;
+    "--now-heading--header-secondary--font-family": "Cabin",&#13;
+    "--now-heading--header-tertiary--font-family": "Cabin",&#13;
+    "--now-tabs--font-family": "Cabin",&#13;
+    "--now-button--secondary--background-color": "transparent",&#13;
+    "--now-color--neutral-5": "72,92,93",&#13;
+    "--now-color_background--primary": "255,255,255"&#13;
+&#13;
+}</theme>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_theme_2b32e25ce322021054599de9e6138b9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>emergency portal theme</name><parent/><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2b32e25ce322021054599de9e6138b9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>emergency portal theme</sys_name><sys_overrides/><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_theme_2b32e25ce322021054599de9e6138b9b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:16</sys_updated_on><theme>{&#13;
+    "--now-canvas-header-container--background-color": "41, 62, 64",&#13;
+    "--now-font-family" : "Roboto",&#13;
+    "--now-button--primary-negative--background-color": "214,45,50",&#13;
+    "--now-button--primary-negative--border-color": "214,45,50",&#13;
+    "--now-button--primary--background-color": "15,67,55",&#13;
+    "--now-heading--header-primary--color": "66,80,81",&#13;
+    "--now-color--secondary-2": "22,27,28",&#13;
+    "--now-text-link--font-family": "Roboto",&#13;
+    "--now-display-type--font-family": "Cabin",&#13;
+    "--now-label-value_label--font-family": "Roboto",&#13;
+    "--now-label-value_value--font-family": "Roboto",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+    "--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-color--neutral-12": "22,27,28",&#13;
+    "--now-highlighted-value--font-family": "Roboto",&#13;
+    "--now-highlighted-value_icon--tertiary_high--color": "221,145,34",&#13;
+    "--now-heading--header-primary--font-family": "Cabin",&#13;
+    "--now-heading--header-secondary--font-family": "Cabin",&#13;
+    "--now-heading--header-tertiary--font-family": "Cabin",&#13;
+    "--now-tabs--font-family": "Cabin",&#13;
+    "--now-button--secondary--background-color": "transparent",&#13;
+    "--now-color--neutral-5": "72,92,93",&#13;
+    "--now-color_background--primary": "255,255,255"&#13;
+&#13;
+}</theme></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>269278975</payload_hash>
+        <record_name>emergency portal theme</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>c222d24ec3324210b6e3d8ec05013184</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Theme</type>
+        <update_guid>8222d24e2f3242103796b2192b6ef284</update_guid>
+        <update_guid_history>8222d24e2f3242103796b2192b6ef284:269278975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>4253e95402de4d44acb67c4e00704944</sys_id>
+        <sys_metadata>2b32e25ce322021054599de9e6138b9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>emergency portal theme</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_2b32e25ce322021054599de9e6138b9b</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_2b32e25ce322021054599de9e6138b9b">c222d24ec3324210b6e3d8ec05013184</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

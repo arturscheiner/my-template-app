@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite">
+    <sys_ux_data_broker_composite action="DELETE">
+        <api_name>x_1434439_my_tem_0.EVAM emergency alert composite databroker</api_name>
+        <data_drivers>{&#13;
+  "compositeQueryMeta": {&#13;
+    "definition" : {&#13;
+      "id" : "83b97b30773300108d070d74c81061f7",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeQueryMeta",&#13;
+    "inputValues" : {&#13;
+      "evamDefinitionId" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "evamDefinitionId"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Metadata defining the Composite Data Query"&#13;
+  },&#13;
+  "compositeDataEntities": {&#13;
+    "definition" : {&#13;
+      "id" : "eaafa603773300108d070d74c81061b6",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeDataEntities",&#13;
+    "inputValues" : {&#13;
+      "evamMetadata" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeQueryMeta",&#13;
+            "output",&#13;
+            "data",&#13;
+            "GlideCompositeDataMetadata_Query",&#13;
+            "getMetadata"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "pageNumber" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageNumber"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageSize" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageSize"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageCursor" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageCursor"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "filterPreference" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "filterPreference"&#13;
+            ]&#13;
+          }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Collated records from Composite Data Query"&#13;
+  },&#13;
+  "compositeDataViews": {&#13;
+    "definition" : {&#13;
+      "id" : "9732a25c4822021007db5079112127bf",&#13;
+      "type" : "TRANSFORM"&#13;
+    },&#13;
+    "elementId" : "compositeDataViews",&#13;
+    "inputValues" : {&#13;
+      "graphqlData" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeDataEntities",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Composite Data as View objects"&#13;
+  }&#13;
+}</data_drivers>
+        <description/>
+        <name>EVAM emergency alert composite databroker</name>
+        <operations/>
+        <output_properties>[&#13;
+ {&#13;
+    "name": "compositeDataViews",&#13;
+    "label": "EVAM Data",&#13;
+    "description": "Stream of data objects from EVAM sources",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "compositeDataViews"&#13;
+    }&#13;
+  }&#13;
+]</output_properties>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "evamDefinitionId",&#13;
+  "label": "EVAM Definition",&#13;
+  "description": "Select an EVAM definition record",&#13;
+"readOnly": false,&#13;
+"fieldType": "reference",&#13;
+  "mandatory": true,&#13;
+  "typeMetadata": {&#13;
+      "reference": "sys_ux_composite_data"&#13;
+    }&#13;
+},&#13;
+{&#13;
+  "name": "pageCursor",&#13;
+  "label": "Page Cursor",&#13;
+  "description": "Page cursor for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "pageSize",&#13;
+  "label": "Page Size",&#13;
+  "description": "Page size for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "20"&#13;
+},&#13;
+{&#13;
+  "name": "pageNumber",&#13;
+  "label": "Page Number",&#13;
+  "description": "Page number for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "0"&#13;
+},&#13;
+{&#13;
+  "name": "filterPreference",&#13;
+  "label": "EVAM Filter Preference",&#13;
+  "description": "Shows sys_ids for EVAM data filter",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations>[{"message":"Page size for EVAM pagination","comment":""},{"message":"Page number for EVAM pagination","comment":""},{"message":"EVAM Filter Preference","comment":""},{"message":"Page Number","comment":""},{"message":"Select an EVAM definition record","comment":""},{"message":"Page Cursor","comment":""},{"message":"Page Size","comment":""},{"message":"Shows sys_ids for EVAM data filter","comment":""},{"message":"EVAM Definition","comment":""},{"message":"Page cursor for EVAM pagination","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_composite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:16</sys_created_on>
+        <sys_id>3232625c0622021052c74c65b06960ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EVAM emergency alert composite databroker</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_data_broker_composite_3232625c0622021052c74c65b06960ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:16</sys_updated_on>
+    </sys_ux_data_broker_composite>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_data_broker_composite_3232625c0622021052c74c65b06960ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite"><sys_ux_data_broker_composite action="INSERT_OR_UPDATE"><api_name>x_1434439_my_tem_0.EVAM emergency alert composite databroker</api_name><data_drivers>{&#13;
+  "compositeQueryMeta": {&#13;
+    "definition" : {&#13;
+      "id" : "83b97b30773300108d070d74c81061f7",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeQueryMeta",&#13;
+    "inputValues" : {&#13;
+      "evamDefinitionId" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "evamDefinitionId"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Metadata defining the Composite Data Query"&#13;
+  },&#13;
+  "compositeDataEntities": {&#13;
+    "definition" : {&#13;
+      "id" : "eaafa603773300108d070d74c81061b6",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeDataEntities",&#13;
+    "inputValues" : {&#13;
+      "evamMetadata" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeQueryMeta",&#13;
+            "output",&#13;
+            "data",&#13;
+            "GlideCompositeDataMetadata_Query",&#13;
+            "getMetadata"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "pageNumber" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageNumber"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageSize" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageSize"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageCursor" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageCursor"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "filterPreference" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "filterPreference"&#13;
+            ]&#13;
+          }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Collated records from Composite Data Query"&#13;
+  },&#13;
+  "compositeDataViews": {&#13;
+    "definition" : {&#13;
+      "id" : "9732a25c4822021007db5079112127bf",&#13;
+      "type" : "TRANSFORM"&#13;
+    },&#13;
+    "elementId" : "compositeDataViews",&#13;
+    "inputValues" : {&#13;
+      "graphqlData" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeDataEntities",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Composite Data as View objects"&#13;
+  }&#13;
+}</data_drivers><description/><name>EVAM emergency alert composite databroker</name><operations/><output_properties>[&#13;
+ {&#13;
+    "name": "compositeDataViews",&#13;
+    "label": "EVAM Data",&#13;
+    "description": "Stream of data objects from EVAM sources",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "compositeDataViews"&#13;
+    }&#13;
+  }&#13;
+]</output_properties><private>false</private><props>[&#13;
+{&#13;
+  "name": "evamDefinitionId",&#13;
+  "label": "EVAM Definition",&#13;
+  "description": "Select an EVAM definition record",&#13;
+"readOnly": false,&#13;
+"fieldType": "reference",&#13;
+  "mandatory": true,&#13;
+  "typeMetadata": {&#13;
+      "reference": "sys_ux_composite_data"&#13;
+    }&#13;
+},&#13;
+{&#13;
+  "name": "pageCursor",&#13;
+  "label": "Page Cursor",&#13;
+  "description": "Page cursor for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "pageSize",&#13;
+  "label": "Page Size",&#13;
+  "description": "Page size for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "20"&#13;
+},&#13;
+{&#13;
+  "name": "pageNumber",&#13;
+  "label": "Page Number",&#13;
+  "description": "Page number for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "0"&#13;
+},&#13;
+{&#13;
+  "name": "filterPreference",&#13;
+  "label": "EVAM Filter Preference",&#13;
+  "description": "Shows sys_ids for EVAM data filter",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props><required_translations>[{"message":"Page size for EVAM pagination","comment":""},{"message":"Page number for EVAM pagination","comment":""},{"message":"EVAM Filter Preference","comment":""},{"message":"Page Number","comment":""},{"message":"Select an EVAM definition record","comment":""},{"message":"Page Cursor","comment":""},{"message":"Page Size","comment":""},{"message":"Shows sys_ids for EVAM data filter","comment":""},{"message":"EVAM Definition","comment":""},{"message":"Page cursor for EVAM pagination","comment":""}]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_data_broker_composite</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:16</sys_created_on><sys_id>3232625c0622021052c74c65b06960ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EVAM emergency alert composite databroker</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_data_broker_composite_3232625c0622021052c74c65b06960ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:16</sys_updated_on></sys_ux_data_broker_composite></record_update>]]></payload>
+        <payload_hash>-257414193</payload_hash>
+        <record_name>EVAM emergency alert composite databroker</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>0032d64ec3324210b6e3d8ec05013118</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Composite Data Broker</type>
+        <update_guid>cc32d64e7232421091a8341f8fee5917</update_guid>
+        <update_guid_history>cc32d64e7232421091a8341f8fee5917:-257414193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_composite">sys_ux_data_broker_composite</sys_db_object>
+        <sys_id>005a499687f2433c80006e9cab30dc90</sys_id>
+        <sys_metadata>3232625c0622021052c74c65b06960ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EVAM emergency alert composite databroker</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_composite_3232625c0622021052c74c65b06960ae</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_composite_3232625c0622021052c74c65b06960ae">0032d64ec3324210b6e3d8ec05013118</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

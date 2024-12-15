@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Additional details</name>
+        <optional_parameters/>
+        <order>100</order>
+        <parent_macroponent display_value="Record Page(request)">67788f5c6ae202103ea2d07b2f1169e1</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_req_add</route_type>
+        <screen_type display_value="Additional details">2b788f5c77e20210bbece6d9b1934cde</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-05-29 20:19:07</sys_created_on>
+        <sys_id>e3788f5c5ee2021084d2f7b4426c0edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional details</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_app_route_e3788f5c5ee2021084d2f7b4426c0edd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-05-29 20:19:07</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e3788f5c5ee2021084d2f7b4426c0edd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_app_route_e3788f5c5ee2021084d2f7b4426c0edd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point/><fields/><icon/><name>Additional details</name><optional_parameters/><order>100</order><parent_macroponent display_value="Record Page(request)">67788f5c6ae202103ea2d07b2f1169e1</parent_macroponent><parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id><route_type>rec_req_add</route_type><screen_type display_value="Additional details">2b788f5c77e20210bbece6d9b1934cde</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-05-29 20:19:07</sys_created_on><sys_id>e3788f5c5ee2021084d2f7b4426c0edd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Additional details</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_app_route_e3788f5c5ee2021084d2f7b4426c0edd</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-05-29 20:19:07</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=e3788f5c5ee2021084d2f7b4426c0edd"/></record_update>]]></payload>
+        <payload_hash>-1352097074</payload_hash>
+        <record_name>Additional details</record_name>
+        <reverted_from/>
+        <source>c4d1da0ec3fe0210b6e3d8ec050131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:23</sys_created_on>
+        <sys_id>a812560ec3324210b6e3d8ec05013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1902127ef810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:23</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>6812560e2c3242105c34bea284b0cc80</update_guid>
+        <update_guid_history>6812560e2c3242105c34bea284b0cc80:-1352097074</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>e73781c5af3742d8aa1b595c02ebe110</sys_id>
+        <sys_metadata>e3788f5c5ee2021084d2f7b4426c0edd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional details</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_e3788f5c5ee2021084d2f7b4426c0edd</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e3788f5c5ee2021084d2f7b4426c0edd">a812560ec3324210b6e3d8ec05013180</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

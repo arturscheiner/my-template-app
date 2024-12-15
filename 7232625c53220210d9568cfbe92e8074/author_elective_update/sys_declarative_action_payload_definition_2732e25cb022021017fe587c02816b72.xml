@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="DELETE">
+        <action_key>REQ_A_REPORT</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c</applicable_to>
+        <description/>
+        <label>Request a report</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_2732e25cb022021017fe587c02816b72</payload_field_table>
+        <payload_template>{&#13;
+  "route": "record", &#13;
+  "fields": {  &#13;
+"table":"x_snc_emergency_0_status_report_requests",&#13;
+"sysId":"-1"&#13;
+  }, &#13;
+  "params": { &#13;
+&#13;
+  }&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:27</sys_created_on>
+        <sys_id>2732e25cb022021017fe587c02816b72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a report</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_2732e25cb022021017fe587c02816b72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:27</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_declarative_action_payload_definition_2732e25cb022021017fe587c02816b72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition"><sys_declarative_action_payload_definition action="INSERT_OR_UPDATE"><action_key>REQ_A_REPORT</action_key><applicable_to>c3547169534723003eddddeeff7b126c</applicable_to><description/><label>Request a report</label><payload_field_table>var__m_sys_declarative_action_payload_field_2732e25cb022021017fe587c02816b72</payload_field_table><payload_template>{&#13;
+  "route": "record", &#13;
+  "fields": {  &#13;
+"table":"x_snc_emergency_0_status_report_requests",&#13;
+"sysId":"-1"&#13;
+  }, &#13;
+  "params": { &#13;
+&#13;
+  }&#13;
+}</payload_template><sys_class_name>sys_declarative_action_payload_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:27</sys_created_on><sys_id>2732e25cb022021017fe587c02816b72</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request a report</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_declarative_action_payload_definition_2732e25cb022021017fe587c02816b72</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:27</sys_updated_on></sys_declarative_action_payload_definition></record_update>]]></payload>
+        <payload_hash>-354304407</payload_hash>
+        <record_name>Request a report</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>7022124ec3324210b6e3d8ec05013181</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Action Payload Definition</type>
+        <update_guid>3022124e9032421061859a4fd00a9881</update_guid>
+        <update_guid_history>3022124e9032421061859a4fd00a9881:-354304407</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_definition">sys_declarative_action_payload_definition</sys_db_object>
+        <sys_id>280f0c07fa76468094f4cddda1929000</sys_id>
+        <sys_metadata>2732e25cb022021017fe587c02816b72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a report</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_definition_2732e25cb022021017fe587c02816b72</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_definition_2732e25cb022021017fe587c02816b72">7022124ec3324210b6e3d8ec05013181</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

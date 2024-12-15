@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>x_1434439_my_tem_0.request_report</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.were_other_employees_affected_by_this_emergency &amp;&amp; (new selfReportQueryService().checkSelfReportsCreated(current))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Request  report</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function() {
+
+    try {
+        var inputs = {};
+        inputs['self_report'] = current; // GlideRecord of table: x_1434439_my_tem_0_status_report 
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_1434439_my_tem_0.emergency_alert_app__create_status_report_requests_for_affected').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+        current.work_notes = gs.getMessage('Self report is requested for other effected by {0}', gs.getUser().getDisplayName());
+        current.update();
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+    var msg = gs.getMessage("You have requested report for other affected employees sucessfully");
+    gs.addInfoMessage(msg);
+
+})();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f32625c30220210d79690a252f268f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request  report</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ui_action_4f32625c30220210d79690a252f268f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:19</sys_updated_on>
+        <table>x_1434439_my_tem_0_status_report</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ui_action_4f32625c30220210d79690a252f268f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;x_1434439_my_tem_0.request_report&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.were_other_employees_affected_by_this_emergency &amp;amp;&amp;amp; (new selfReportQueryService().checkSelfReportsCreated(current))&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;true&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Request  report&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function() {
+
+    try {
+        var inputs = {};
+        inputs['self_report'] = current; // GlideRecord of table: x_1434439_my_tem_0_status_report 
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_1434439_my_tem_0.emergency_alert_app__create_status_report_requests_for_affected').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+        current.work_notes = gs.getMessage('Self report is requested for other effected by {0}', gs.getUser().getDisplayName());
+        current.update();
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+    var msg = gs.getMessage("You have requested report for other affected employees sucessfully");
+    gs.addInfoMessage(msg);
+
+})();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 17:32:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4f32625c30220210d79690a252f268f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request  report&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My Template App" source="x_1434439_my_tem_0"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Template App"&gt;7232625c53220210d9568cfbe92e8074&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_4f32625c30220210d79690a252f268f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 17:32:19&lt;/sys_updated_on&gt;&lt;table&gt;x_1434439_my_tem_0_status_report&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-604015412</payload_hash>
+        <record_name>Request  report</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>b842528ec3324210b6e3d8ec05013172</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UI Action</type>
+        <update_guid>7842528e3a3242101b96d3dac13e3a72</update_guid>
+        <update_guid_history>7842528e3a3242101b96d3dac13e3a72:-604015412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>735d2c5a6f1649b4b35bedd39f6e14d9</sys_id>
+        <sys_metadata>4f32625c30220210d79690a252f268f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request  report</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="">cc42265cc3220210b6e3d8ec05013160</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ui_action_4f32625c30220210d79690a252f268f8</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_4f32625c30220210d79690a252f268f8">b842528ec3324210b6e3d8ec05013172</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

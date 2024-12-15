@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="status" table="x_1434439_my_tem_0_status_report" version="3">
+        <sys_choice_set action="DELETE">
+            <element>status</element>
+            <name>x_1434439_my_tem_0_status_report</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>0872e69cc3220210b6e3d8ec050131e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+            <sys_update_name>sys_choice_x_1434439_my_tem_0_status_report_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 17:32:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_choice_x_1434439_my_tem_0_status_report_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="status" table="x_1434439_my_tem_0_status_report" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>status</element><name>x_1434439_my_tem_0_status_report</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by/><sys_created_on/><sys_id>0872e69cc3220210b6e3d8ec050131e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_choice_x_1434439_my_tem_0_status_report_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>769536522</payload_hash>
+        <record_name>x_1434439_my_tem_0_status_report.status</record_name>
+        <reverted_from/>
+        <source>c4d1da0ec3fe0210b6e3d8ec050131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:53</sys_created_on>
+        <sys_id>49f112cac3324210b6e3d8ec0501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190212778e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:53</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>cdf112cae1324210ca12989196a2ec39</update_guid>
+        <update_guid_history>cdf112cae1324210ca12989196a2ec39:769536522,89f112cad432421099e36064e6d73114:894405137,41f112ca3e324210a4061983858a860d:-1587962640,49f1de8a453242104a0f335ebbb08dfb:645162455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>234772951a604444981aa94482a440c9</sys_id>
+        <sys_metadata>0872e69cc3220210b6e3d8ec050131e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent display_value="">9042265cc3220210b6e3d8ec05013173</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_choice_x_1434439_my_tem_0_status_report_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_1434439_my_tem_0_status_report_status">49f112cac3324210b6e3d8ec0501313a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

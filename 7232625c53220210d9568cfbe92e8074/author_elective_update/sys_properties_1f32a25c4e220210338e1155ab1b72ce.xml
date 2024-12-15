@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Self Report activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</name>
+        <read_roles/>
+        <suffix>x_snc_emergency_al</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:40</sys_created_on>
+        <sys_id>1f32a25c4e220210338e1155ab1b72ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_properties_1f32a25c4e220210338e1155ab1b72ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:40</sys_updated_on>
+        <type>string</type>
+        <value>number,comments,emergency_details,emergency_update,start_date,status,type_of_emergency,were_other_employees_affected_by_this_emergency,name,*Attachments*,work_notes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_properties_1f32a25c4e220210338e1155ab1b72ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Self Report activity formatter fields</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</name><read_roles/><suffix>x_snc_emergency_al</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:40</sys_created_on><sys_id>1f32a25c4e220210338e1155ab1b72ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_properties_1f32a25c4e220210338e1155ab1b72ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:40</sys_updated_on><type>string</type><value>number,comments,emergency_details,emergency_update,start_date,status,type_of_emergency,were_other_employees_affected_by_this_emergency,name,*Attachments*,work_notes</value><write_roles/></sys_properties></record_update>]]></payload>
+        <payload_hash>-331439870</payload_hash>
+        <record_name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>62121e0ec3324210b6e3d8ec05013137</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>System Property</type>
+        <update_guid>22121e0e6f324210008afed7b9a48337</update_guid>
+        <update_guid_history>22121e0e6f324210008afed7b9a48337:-331439870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>20c22b9aa10a4778a095c331ae570640</sys_id>
+        <sys_metadata>1f32a25c4e220210338e1155ab1b72ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_1434439_my_tem_0_status_report_activity.fields</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_properties_1f32a25c4e220210338e1155ab1b72ce</sys_update_name>
+        <sys_update_version display_value="sys_properties_1f32a25c4e220210338e1155ab1b72ce">62121e0ec3324210b6e3d8ec05013137</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

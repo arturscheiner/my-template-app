@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_form_header_secondary_values">
+    <sys_aw_form_header_secondary_values action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <field>work_status_request</field>
+        <form_header/>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_form_header_secondary_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:26</sys_created_on>
+        <sys_id>6f32e25c942202103779dbee0a5aa48a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_status_request</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_aw_form_header_secondary_values_6f32e25c942202103779dbee0a5aa48a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:26</sys_updated_on>
+    </sys_aw_form_header_secondary_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_aw_form_header_secondary_values_6f32e25c942202103779dbee0a5aa48a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_form_header_secondary_values"><sys_aw_form_header_secondary_values action="INSERT_OR_UPDATE"><active>true</active><conditions/><field>work_status_request</field><form_header/><order>200</order><roles/><sys_class_name>sys_aw_form_header_secondary_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:26</sys_created_on><sys_id>6f32e25c942202103779dbee0a5aa48a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>work_status_request</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_aw_form_header_secondary_values_6f32e25c942202103779dbee0a5aa48a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:26</sys_updated_on></sys_aw_form_header_secondary_values></record_update>]]></payload>
+        <payload_hash>693649533</payload_hash>
+        <record_name>work_status_request</record_name>
+        <reverted_from/>
+        <source>c4d1da0ec3fe0210b6e3d8ec050131c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:05:28</sys_created_on>
+        <sys_id>cbd1128ac3324210b6e3d8ec05013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190212718ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:05:28</sys_updated_on>
+        <type>Secondary Values</type>
+        <update_guid>8bd1128aa1324210bc8615940c6d6b74</update_guid>
+        <update_guid_history>8bd1128aa1324210bc8615940c6d6b74:693649533</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_form_header_secondary_values">sys_aw_form_header_secondary_values</sys_db_object>
+        <sys_id>20871d8c4b904d0fbe4c4fcbf78dd299</sys_id>
+        <sys_metadata>6f32e25c942202103779dbee0a5aa48a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_status_request</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_aw_form_header_secondary_values_6f32e25c942202103779dbee0a5aa48a</sys_update_name>
+        <sys_update_version display_value="sys_aw_form_header_secondary_values_6f32e25c942202103779dbee0a5aa48a">cbd1128ac3324210b6e3d8ec05013174</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_aw_global_search_config&#13;
+&#13;
+53703002e1b92010f877665293b91b40</description>
+        <name>global_search_configurations</name>
+        <page display_value="">6732e25cd622021083b226d926fadaa2</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix>null</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7632625c16220210d6c2e66c4a9b3c9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_page_property_7632625c16220210d6c2e66c4a9b3c9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1434439_my_tem_0.6732e25cd622021083b226d926fadaa2.root.global_search_configurations</unique_name>
+        <value>{"globalSearchViewConfigId":"af32e25c7f220210c774603c5899b489","globalSearchRoute":"search-results"}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_page_property_7632625c16220210d6c2e66c4a9b3c9a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_aw_global_search_config&#13;
+&#13;
+53703002e1b92010f877665293b91b40</description><name>global_search_configurations</name><page display_value="">6732e25cd622021083b226d926fadaa2</page><required_translations>[ ]</required_translations><route/><suffix>null</suffix><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>7632625c16220210d6c2e66c4a9b3c9a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy>null</sys_policy><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_page_property_7632625c16220210d6c2e66c4a9b3c9a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:30</sys_updated_on><type>json</type><unique_name>x_1434439_my_tem_0.6732e25cd622021083b226d926fadaa2.root.global_search_configurations</unique_name><value>{"globalSearchViewConfigId":"af32e25c7f220210c774603c5899b489","globalSearchRoute":"search-results"}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1715810597</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>0a521e8ec3324210b6e3d8ec05013133</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>c6521e8edd32421024e8201ca3409b33</update_guid>
+        <update_guid_history>c6521e8edd32421024e8201ca3409b33:1715810597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>8240bffab5824a68aba5c75b7d668840</sys_id>
+        <sys_metadata>7632625c16220210d6c2e66c4a9b3c9a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_7632625c16220210d6c2e66c4a9b3c9a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_7632625c16220210d6c2e66c4a9b3c9a">0a521e8ec3324210b6e3d8ec05013133</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

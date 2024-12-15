@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="DELETE">
+        <name>text_06</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:12</sys_created_on>
+        <sys_id>4b32a25ca3220210fae3d8ba5ee0c021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_4b32a25ca3220210fae3d8ba5ee0c021</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:12</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Emergency Alert Manager">4f32a25c9e220210c34588a57f46e123</view_template>
+    </sys_sg_view_template_slot>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_view_template_slot_4b32a25ca3220210fae3d8ba5ee0c021</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot"><sys_sg_view_template_slot action="INSERT_OR_UPDATE"><name>text_06</name><sys_class_name>sys_sg_view_template_slot</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:12</sys_created_on><sys_id>4b32a25ca3220210fae3d8ba5ee0c021</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_06</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_view_template_slot_4b32a25ca3220210fae3d8ba5ee0c021</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:12</sys_updated_on><type>Text</type><view_template display_value="Emergency Alert Manager">4f32a25c9e220210c34588a57f46e123</view_template></sys_sg_view_template_slot></record_update>]]></payload>
+        <payload_hash>1971597691</payload_hash>
+        <record_name>text_06</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>6c42128ec3324210b6e3d8ec050131bd</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Card template element</type>
+        <update_guid>2c42128e8c324210b19b16dfab2cc3bd</update_guid>
+        <update_guid_history>2c42128e8c324210b19b16dfab2cc3bd:1971597691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:07:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_template_slot">sys_sg_view_template_slot</sys_db_object>
+        <sys_id>26220f9d03eb4de8860fc3b1a5987040</sys_id>
+        <sys_metadata>4b32a25ca3220210fae3d8ba5ee0c021</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_slot_4b32a25ca3220210fae3d8ba5ee0c021</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_slot_4b32a25ca3220210fae3d8ba5ee0c021">6c42128ec3324210b6e3d8ec050131bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:07:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

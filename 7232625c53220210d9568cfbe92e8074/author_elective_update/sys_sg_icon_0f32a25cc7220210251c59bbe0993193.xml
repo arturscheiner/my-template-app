@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="DELETE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons-buttons","Value":"e917","Name":"icon-Clipboard-Exclamation-Solid","FontColor":"#2e2e2e","BackgroundColor":"#2e2e2e"}</icon>
+        <name>icon-Clipboard-Exclamation-Solid</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:45</sys_created_on>
+        <sys_id>0f32a25cc7220210251c59bbe0993193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icon-Clipboard-Exclamation-Solid</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_icon_0f32a25cc7220210251c59bbe0993193</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:45</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_sg_icon_0f32a25cc7220210251c59bbe0993193</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon"><sys_sg_icon action="INSERT_OR_UPDATE"><icon>{"Shape":"Circle","FontName":"now-mobile-icons-buttons","Value":"e917","Name":"icon-Clipboard-Exclamation-Solid","FontColor":"#2e2e2e","BackgroundColor":"#2e2e2e"}</icon><name>icon-Clipboard-Exclamation-Solid</name><sys_class_name>sys_sg_icon</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:45</sys_created_on><sys_id>0f32a25cc7220210251c59bbe0993193</sys_id><sys_mod_count>0</sys_mod_count><sys_name>icon-Clipboard-Exclamation-Solid</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_sg_icon_0f32a25cc7220210251c59bbe0993193</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:45</sys_updated_on><type>font</type></sys_sg_icon></record_update>]]></payload>
+        <payload_hash>-973088204</payload_hash>
+        <record_name>icon-Clipboard-Exclamation-Solid</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>2a02decac3324210b6e3d8ec0501319c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Icon</type>
+        <update_guid>e602deca47324210b714850d3752249c</update_guid>
+        <update_guid_history>e602deca47324210b714850d3752249c:-973088204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon">sys_sg_icon</sys_db_object>
+        <sys_id>34602919a3334046a9e179bf50596844</sys_id>
+        <sys_metadata>0f32a25cc7220210251c59bbe0993193</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icon-Clipboard-Exclamation-Solid</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_0f32a25cc7220210251c59bbe0993193</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_0f32a25cc7220210251c59bbe0993193">2a02decac3324210b6e3d8ec0501319c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

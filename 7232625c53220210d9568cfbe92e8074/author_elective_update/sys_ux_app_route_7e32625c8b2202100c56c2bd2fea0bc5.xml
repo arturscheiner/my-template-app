@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId,referenceField,label,serializedChanges,encodedRecord,size</fields>
+        <icon/>
+        <name>DA Modal Ref Lookup</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="">7232625c102202108a73a9321dc321d1</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>modal_ref_lookup</route_type>
+        <screen_type display_value="DA Modal Ref Lookup">c8ddd091ff53101035be517f793bf13d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:27</sys_created_on>
+        <sys_id>7e32625c8b2202100c56c2bd2fea0bc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DA Modal Ref Lookup</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_ux_app_route_7e32625c8b2202100c56c2bd2fea0bc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:27</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Template App">7232625c53220210d9568cfbe92e8074</application>
+        <file_path/>
+        <instance_id>7d047f93db61869837d72a59139619a9</instance_id>
+        <instance_name>dev260498</instance_name>
+        <name>sys_ux_app_route_7e32625c8b2202100c56c2bd2fea0bc5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point/><fields>table,sysId,referenceField,label,serializedChanges,encodedRecord,size</fields><icon/><name>DA Modal Ref Lookup</name><optional_parameters/><order>0</order><parent_macroponent display_value="">7232625c102202108a73a9321dc321d1</parent_macroponent><parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id><route_type>modal_ref_lookup</route_type><screen_type display_value="DA Modal Ref Lookup">c8ddd091ff53101035be517f793bf13d</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-29 17:32:27</sys_created_on><sys_id>7e32625c8b2202100c56c2bd2fea0bc5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DA Modal Ref Lookup</sys_name><sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package><sys_policy/><sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope><sys_update_name>sys_ux_app_route_7e32625c8b2202100c56c2bd2fea0bc5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-29 17:32:27</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-2031345902</payload_hash>
+        <record_name>DA Modal Ref Lookup</record_name>
+        <reverted_from/>
+        <source>063bd400c3320210b6e3d8ec050131bb</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-09 23:19:16</sys_created_on>
+        <sys_id>8c02d6cac3324210b6e3d8ec050131c8</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fff4c85200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>4c02d6ca853242104ebe239e3f367fc8</update_guid>
+        <update_guid_history>4c02d6ca853242104ebe239e3f367fc8:-2031345902</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 13:06:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>070edb3675f24eca9278d5198e875c84</sys_id>
+        <sys_metadata>7e32625c8b2202100c56c2bd2fea0bc5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DA Modal Ref Lookup</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_scope_delete display_value="My Template App">5e0e65b46569442e9dfc948decdaf579</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_7e32625c8b2202100c56c2bd2fea0bc5</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_7e32625c8b2202100c56c2bd2fea0bc5">8c02d6cac3324210b6e3d8ec050131c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 13:06:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

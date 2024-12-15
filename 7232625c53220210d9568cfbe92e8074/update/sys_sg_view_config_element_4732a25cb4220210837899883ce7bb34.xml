@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_04_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 17:32:22</sys_created_on>
+        <sys_id>4732a25cb4220210837899883ce7bb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_04_element</sys_name>
+        <sys_package display_value="My Template App" source="x_1434439_my_tem_0">7232625c53220210d9568cfbe92e8074</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Template App">7232625c53220210d9568cfbe92e8074</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_4732a25cb4220210837899883ce7bb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 17:32:22</sys_updated_on>
+        <view_config display_value="Team's Status Reports View Config">4332a25cea22021040a4802b953c2b74</view_config>
+        <view_template_slot display_value="text_04">8332a25cb02202104724c15a4ddec349</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>
